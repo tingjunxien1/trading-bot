@@ -1,0 +1,46 @@
+{
+  "account": {
+    "starting_capital": 2000.00,
+    "cash": 2000.00,
+    "equity": 2000.00,
+    "peak_equity": 2000.00,
+    "max_drawdown_pct": 0.0,
+    "total_pnl": 0.00,
+    "total_pnl_pct": 0.00
+  },
+  "longs": {},
+  "shorts": {},
+  "trade_history": [],
+  "equity_curve": [
+    {"ts": "2026-06-08 00:00", "equity": 2000.00}
+  ],
+  "stats": {
+    "total_trades": 0,
+    "winning_trades": 0,
+    "losing_trades": 0,
+    "total_fees_paid": 0.0,
+    "runs": 0,
+    "created_at": "2026-06-08 00:00:00",
+    "last_run": null,
+    "best_trade_pct": 0.0,
+    "worst_trade_pct": 0.0,
+    "active_strategy": "long_short_momentum_v1",
+    "data_source": "unknown"
+  },
+  "config": {
+    "max_longs": 3,
+    "max_shorts": 2,
+    "position_size_pct": 0.18,
+    "long_min_score": 3.5,
+    "long_min_24h": 1.5,
+    "long_extreme_fear_block": 12,
+    "short_min_score": -3.0,
+    "short_max_24h": -2.5,
+    "short_max_fg": 45,
+    "short_extreme_greed_block": 80,
+    "stop_loss_pct": 0.07,
+    "take_profit_pct": 0.15,
+    "fee_pct": 0.001,
+    "equity_curve_max_points": 500
+  }
+}

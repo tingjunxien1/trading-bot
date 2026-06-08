@@ -1,0 +1,36 @@
+name: Trading Bot
+
+on:
+  schedule:
+    # Runs every 2 hours, 24/7 — free on GitHub Actions
+    - cron: '0 0,2,4,6,8,10,12,14,16,18,20,22 * * *'
+  workflow_dispatch:  # also lets you trigger manually from GitHub website
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to save state back to repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run trading engine
+        run: python pt_cloud.py
+
+      - name: Save updated state back to repo
+        run: |
+          git config user.name "Trading Bot"
+          git config user.email "bot@bot.com"
+          git add pt_state.json pt_log.txt
+          git diff --staged --quiet || git commit -m "Bot run $(date -u '+%Y-%m-%d %H:%M')"
+          git push
