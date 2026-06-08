@@ -2,8 +2,8 @@ name: Trading Bot
 
 on:
   schedule:
-    # Runs every 2 hours, 24/7 — free on GitHub Actions
-    - cron: '0 0,2,4,6,8,10,12,14,16,18,20,22 * * *'
+    # Runs every 30 minutes, 24/7 — free on GitHub Actions (~720 min/month, well within 2000 limit)
+    - cron: '*/30 * * * *'
   workflow_dispatch:  # also lets you trigger manually from GitHub website
 
 env:
