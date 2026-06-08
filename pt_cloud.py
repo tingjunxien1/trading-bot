@@ -552,14 +552,20 @@ def run():
     save_state(state)
     log("Saved. Run complete.\n")
 
-    # Hourly summary notification
-    if state["stats"]["runs"] % 6 == 0:  # every ~6 hours
-        notify(
-            f"📊 Portfolio Update — ${a['equity']:,.2f}",
-            f"P&L: ${a['total_pnl']:+.2f} ({a['total_pnl_pct']:+.2f}%)\n"
-            f"Longs: {n_longs} | Shorts: {n_shorts}\n"
-            f"Win Rate: {wr:.0f}% | Trades: {st['total_trades']}"
-        )
+    # Send heartbeat notification on every run
+    pos_lines = ""
+    for sym, p in state["longs"].items():
+        pos_lines += f"📈 {sym} +{p.get('pnl_pct',0):+.1f}%  "
+    for sym, p in state["shorts"].items():
+        pos_lines += f"📉 {sym} {p.get('pnl_pct',0):+.1f}%  "
+
+    notify(
+        f"🤖 Run #{st['runs']} | ${a['equity']:,.2f} ({a['total_pnl_pct']:+.2f}%)",
+        f"Cash: ${a['cash']:,.2f} | F&G: {fg_val} ({fg_lbl})\n"
+        f"Longs: {n_longs} | Shorts: {n_shorts} | Trades: {st['total_trades']}\n"
+        f"{pos_lines.strip() if pos_lines else 'No open positions'}",
+        priority="low"
+    )
 
     return state
 
