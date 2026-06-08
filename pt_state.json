@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 1765.766,
-    "equity": 1999.766,
+    "equity": 1998.814,
     "peak_equity": 2000.0,
-    "max_drawdown_pct": -0.0117,
-    "total_pnl": -0.234,
-    "total_pnl_pct": -0.0117
+    "max_drawdown_pct": -0.0593,
+    "total_pnl": -1.186,
+    "total_pnl_pct": -0.0593
   },
   "longs": {},
   "shorts": {
@@ -14,7 +14,7 @@
       "direction": "SHORT",
       "name": "LAB",
       "entry_price": 12.29,
-      "current_price": 12.29,
+      "current_price": 12.34,
       "quantity": 19.03986981,
       "cost_basis": 234.0,
       "fee_open": 0.234,
@@ -22,8 +22,8 @@
       "take_profit": 10.4465,
       "score": -4.774,
       "c24h_entry": -7.7262426685574574,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
+      "pnl_pct": -0.407,
+      "pnl_usd": -0.952,
       "opened_at": "2026-06-08 18:54:38"
     }
   },
@@ -57,6 +57,18 @@
     {
       "ts": "2026-06-08 18:54",
       "equity": 1999.766
+    },
+    {
+      "ts": "2026-06-08 19:06",
+      "equity": 1998.814
+    },
+    {
+      "ts": "2026-06-08 19:06",
+      "equity": 1998.814
+    },
+    {
+      "ts": "2026-06-08 19:06",
+      "equity": 1998.814
     }
   ],
   "stats": {
@@ -64,9 +76,9 @@
     "winning_trades": 0,
     "losing_trades": 0,
     "total_fees_paid": 0.234,
-    "runs": 1,
+    "runs": 2,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-06-08 18:54:38",
+    "last_run": "2026-06-08 19:06:08",
     "best_trade_pct": 0.0,
     "worst_trade_pct": 0.0,
     "active_strategy": "long_short_momentum_v1",
