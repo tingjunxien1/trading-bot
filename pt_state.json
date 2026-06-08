@@ -1,31 +1,76 @@
 {
   "account": {
-    "starting_capital": 2000.00,
-    "cash": 2000.00,
-    "equity": 2000.00,
-    "peak_equity": 2000.00,
-    "max_drawdown_pct": 0.0,
-    "total_pnl": 0.00,
-    "total_pnl_pct": 0.00
+    "starting_capital": 2000.0,
+    "cash": 1765.766,
+    "equity": 1999.766,
+    "peak_equity": 2000.0,
+    "max_drawdown_pct": -0.0117,
+    "total_pnl": -0.234,
+    "total_pnl_pct": -0.0117
   },
   "longs": {},
-  "shorts": {},
-  "trade_history": [],
+  "shorts": {
+    "LAB": {
+      "direction": "SHORT",
+      "name": "LAB",
+      "entry_price": 12.29,
+      "current_price": 12.29,
+      "quantity": 19.03986981,
+      "cost_basis": 234.0,
+      "fee_open": 0.234,
+      "stop_loss": 13.1503,
+      "take_profit": 10.4465,
+      "score": -4.774,
+      "c24h_entry": -7.7262426685574574,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-06-08 18:54:38"
+    }
+  },
+  "trade_history": [
+    {
+      "action": "SHORT_OPEN",
+      "symbol": "LAB",
+      "price": 12.29,
+      "qty": 19.03986981,
+      "value": 234.0,
+      "fee": 0.234,
+      "score": -4.774,
+      "c24h": -7.7262426685574574,
+      "reason": "Bearish momentum score -4.77 | 24h -7.73%",
+      "timestamp": "2026-06-08 18:54:38"
+    }
+  ],
   "equity_curve": [
-    {"ts": "2026-06-08 00:00", "equity": 2000.00}
+    {
+      "ts": "2026-06-08 00:00",
+      "equity": 2000.0
+    },
+    {
+      "ts": "2026-06-08 18:54",
+      "equity": 2000.0
+    },
+    {
+      "ts": "2026-06-08 18:54",
+      "equity": 2000.0
+    },
+    {
+      "ts": "2026-06-08 18:54",
+      "equity": 1999.766
+    }
   ],
   "stats": {
-    "total_trades": 0,
+    "total_trades": 1,
     "winning_trades": 0,
     "losing_trades": 0,
-    "total_fees_paid": 0.0,
-    "runs": 0,
+    "total_fees_paid": 0.234,
+    "runs": 1,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": null,
+    "last_run": "2026-06-08 18:54:38",
     "best_trade_pct": 0.0,
     "worst_trade_pct": 0.0,
     "active_strategy": "long_short_momentum_v1",
-    "data_source": "unknown"
+    "data_source": "coingecko"
   },
   "config": {
     "max_longs": 3,
