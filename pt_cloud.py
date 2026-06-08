@@ -117,13 +117,15 @@ def save_state(state):
 def notify(title, body, priority="default"):
     """Send push notification via ntfy.sh (free)."""
     try:
-        requests.post(
+        r = requests.post(
             f"https://ntfy.sh/{NTFY_TOPIC}",
             data=body.encode("utf-8"),
             headers={"Title": title, "Priority": priority, "Tags": "chart_increasing"},
             timeout=10
         )
-    except: pass
+        log(f"Notification sent → topic={NTFY_TOPIC} status={r.status_code}")
+    except Exception as e:
+        log(f"Notification FAILED: {e}", "WARN")
 
 # ── MARKET DATA (PythonAnywhere-compatible sources) ───────────────────────────
 # CoinCap and Binance are blocked on PythonAnywhere free tier.
