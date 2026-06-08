@@ -48,3 +48,20 @@
 [2026-06-08 19:14:03][INFO] Saved. Run complete.
 
 [2026-06-08 19:14:03][WARN] Notification FAILED: 'latin-1' codec can't encode character '\U0001f916' in position 0: ordinal not in range(256)
+[2026-06-08 19:17:38][INFO] ====================================================================
+[2026-06-08 19:17:38][INFO] RUN #4 START
+[2026-06-08 19:17:38][INFO] Market data: 50 coins from coingecko
+[2026-06-08 19:17:38][INFO] Source: coingecko | Coins: 50 | F&G: 8 (Extreme Fear)
+[2026-06-08 19:17:38][INFO] --- EXIT CHECK ---
+[2026-06-08 19:17:38][INFO] --- LONG ENTRY CHECK (0/3) ---
+[2026-06-08 19:17:38][INFO]   SKIP longs — Extreme Fear (8)
+[2026-06-08 19:17:38][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-06-08 19:17:38][INFO] ────────────────────────────────────────────────────────────────────
+[2026-06-08 19:17:38][INFO] EQUITY  $1,996.15  (-0.193%)  P&L $-3.85
+[2026-06-08 19:17:38][INFO] CASH    $1,765.77  |  Drawdown -0.19%  |  Win 0%
+[2026-06-08 19:17:38][INFO] LONGS: 0  SHORTS: 1  TOTAL TRADES: 1
+[2026-06-08 19:17:38][INFO]   📉 SHORT LAB      entry=$12.2900  now=$12.4800  pnl=-1.55%
+[2026-06-08 19:17:38][INFO] ====================================================================
+[2026-06-08 19:17:38][INFO] Saved. Run complete.
+
+[2026-06-08 19:17:38][INFO] Notification sent → topic=chris-trading-2026 status=200
