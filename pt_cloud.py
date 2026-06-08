@@ -296,7 +296,7 @@ def open_long(state, coin, fg, score):
         "timestamp":now
     })
     log(f"  📈 LONG  OPEN  {coin['symbol']:8} @ ${coin['current_price']:>12,.4f}  val=${size:.2f}  score={score:.2f}")
-    notify(f"📈 LONG OPENED: {coin['symbol']}",
+    notify(f"LONG OPENED: {coin['symbol']}",
            f"Bought {coin['symbol']} @ ${coin['current_price']:,.4f}\nScore: {score:.2f} | 24h: {coin['c24h']:+.2f}%\nSL: ${state['longs'][coin['symbol']]['stop_loss']:,.4f} | TP: ${state['longs'][coin['symbol']]['take_profit']:,.4f}")
     return True
 
@@ -332,7 +332,7 @@ def open_short(state, coin, fg, score):
         "timestamp":now
     })
     log(f"  📉 SHORT OPEN  {coin['symbol']:8} @ ${coin['current_price']:>12,.4f}  val=${size:.2f}  score={score:.2f}")
-    notify(f"📉 SHORT OPENED: {coin['symbol']}",
+    notify(f"SHORT OPENED: {coin['symbol']}",
            f"Shorted {coin['symbol']} @ ${coin['current_price']:,.4f}\nScore: {score:.2f} | 24h: {coin['c24h']:+.2f}%\nSL: ${state['shorts'][coin['symbol']]['stop_loss']:,.4f} | TP: ${state['shorts'][coin['symbol']]['take_profit']:,.4f}",
            priority="high")
     return True
@@ -351,7 +351,7 @@ def close_long(state, sym, price, reason):
     _record_close(state, sym, price, proc, pnl, pct, fee, pos, "LONG_CLOSE", reason)
     icon = "✅" if pnl >= 0 else "❌"
     log(f"  {icon} LONG  CLOSE {sym:8} @ ${price:>12,.4f}  pnl=${pnl:+.2f} ({pct:+.2f}%)  [{reason}]")
-    notify(f"{'✅' if pnl>=0 else '❌'} LONG CLOSED: {sym}",
+    notify(f"{'WIN' if pnl>=0 else 'LOSS'} LONG CLOSED: {sym}",
            f"Sold {sym} @ ${price:,.4f}\nP&L: ${pnl:+.2f} ({pct:+.2f}%)\nReason: {reason}",
            priority="high" if pnl < 0 else "default")
     del state["longs"][sym]
@@ -371,7 +371,7 @@ def close_short(state, sym, price, reason):
     _record_close(state, sym, price, proc, pnl, pct, fee, pos, "SHORT_CLOSE", reason)
     icon = "✅" if pnl >= 0 else "❌"
     log(f"  {icon} SHORT CLOSE {sym:8} @ ${price:>12,.4f}  pnl=${pnl:+.2f} ({pct:+.2f}%)  [{reason}]")
-    notify(f"{'✅' if pnl>=0 else '❌'} SHORT CLOSED: {sym}",
+    notify(f"{'WIN' if pnl>=0 else 'LOSS'} SHORT CLOSED: {sym}",
            f"Covered {sym} @ ${price:,.4f}\nP&L: ${pnl:+.2f} ({pct:+.2f}%)\nReason: {reason}",
            priority="high" if pnl < 0 else "default")
     del state["shorts"][sym]
@@ -562,7 +562,7 @@ def run():
         pos_lines += f"📉 {sym} {p.get('pnl_pct',0):+.1f}%  "
 
     notify(
-        f"🤖 Run #{st['runs']} | ${a['equity']:,.2f} ({a['total_pnl_pct']:+.2f}%)",
+        f"Bot Run #{st['runs']} | ${a['equity']:,.2f} ({a['total_pnl_pct']:+.2f}%)",
         f"Cash: ${a['cash']:,.2f} | F&G: {fg_val} ({fg_lbl})\n"
         f"Longs: {n_longs} | Shorts: {n_shorts} | Trades: {st['total_trades']}\n"
         f"{pos_lines.strip() if pos_lines else 'No open positions'}",
