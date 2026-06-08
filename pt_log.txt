@@ -65,3 +65,23 @@
 [2026-06-08 19:17:38][INFO] Saved. Run complete.
 
 [2026-06-08 19:17:38][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-08 23:49:59][INFO] ====================================================================
+[2026-06-08 23:49:59][INFO] RUN #5 START
+[2026-06-08 23:49:59][INFO] Market data: 50 coins from coingecko
+[2026-06-08 23:49:59][INFO] Source: coingecko | Coins: 50 | F&G: 8 (Extreme Fear)
+[2026-06-08 23:49:59][INFO] --- EXIT CHECK ---
+[2026-06-08 23:49:59][INFO] --- LONG ENTRY CHECK (0/3) ---
+[2026-06-08 23:49:59][INFO]   SKIP longs — Extreme Fear (8)
+[2026-06-08 23:49:59][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-06-08 23:49:59][INFO]   📉 SHORT OPEN  BCH      @ $    209.5200  val=$235.15  score=-3.92
+[2026-06-08 23:49:59][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-08 23:49:59][INFO] ────────────────────────────────────────────────────────────────────
+[2026-06-08 23:49:59][INFO] EQUITY  $2,009.62  (+0.481%)  P&L $+9.62
+[2026-06-08 23:49:59][INFO] CASH    $1,530.38  |  Drawdown -0.19%  |  Win 0%
+[2026-06-08 23:49:59][INFO] LONGS: 0  SHORTS: 2  TOTAL TRADES: 2
+[2026-06-08 23:49:59][INFO]   📉 SHORT LAB      entry=$12.2900  now=$11.7600  pnl=+4.31%
+[2026-06-08 23:49:59][INFO]   📉 SHORT BCH      entry=$209.5200  now=$209.5200  pnl=+0.00%
+[2026-06-08 23:49:59][INFO] ====================================================================
+[2026-06-08 23:49:59][INFO] Saved. Run complete.
+
+[2026-06-08 23:49:59][INFO] Notification sent → topic=chris-trading-2026 status=200
