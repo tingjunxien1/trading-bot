@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 1530.3776,
-    "equity": 2009.622,
-    "peak_equity": 2009.8571,
+    "equity": 2037.4058,
+    "peak_equity": 2037.4058,
     "max_drawdown_pct": -0.1926,
-    "total_pnl": 9.622,
-    "total_pnl_pct": 0.4811
+    "total_pnl": 37.4058,
+    "total_pnl_pct": 1.8703
   },
   "longs": {},
   "shorts": {
@@ -14,7 +14,7 @@
       "direction": "SHORT",
       "name": "LAB",
       "entry_price": 12.29,
-      "current_price": 11.76,
+      "current_price": 10.5,
       "quantity": 19.03986981,
       "cost_basis": 234.0,
       "fee_open": 0.234,
@@ -22,15 +22,15 @@
       "take_profit": 10.4465,
       "score": -4.774,
       "c24h_entry": -7.7262426685574574,
-      "pnl_pct": 4.312,
-      "pnl_usd": 10.0911,
+      "pnl_pct": 14.565,
+      "pnl_usd": 34.0814,
       "opened_at": "2026-06-08 18:54:38"
     },
     "BCH": {
       "direction": "SHORT",
       "name": "Bitcoin Cash",
       "entry_price": 209.52,
-      "current_price": 209.52,
+      "current_price": 206.14,
       "quantity": 1.12234288,
       "cost_basis": 235.1533,
       "fee_open": 0.2352,
@@ -38,8 +38,8 @@
       "take_profit": 178.092,
       "score": -3.925,
       "c24h_entry": -8.650426592016354,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
+      "pnl_pct": 1.613,
+      "pnl_usd": 3.7935,
       "opened_at": "2026-06-08 23:49:59"
     }
   },
@@ -133,6 +133,18 @@
     {
       "ts": "2026-06-08 23:49",
       "equity": 2009.622
+    },
+    {
+      "ts": "2026-06-09 11:44",
+      "equity": 2037.4058
+    },
+    {
+      "ts": "2026-06-09 11:44",
+      "equity": 2037.4058
+    },
+    {
+      "ts": "2026-06-09 11:44",
+      "equity": 2037.4058
     }
   ],
   "stats": {
@@ -140,9 +152,9 @@
     "winning_trades": 0,
     "losing_trades": 0,
     "total_fees_paid": 0.4692,
-    "runs": 5,
+    "runs": 6,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-06-08 23:49:59",
+    "last_run": "2026-06-09 11:44:43",
     "best_trade_pct": 0.0,
     "worst_trade_pct": 0.0,
     "active_strategy": "long_short_momentum_v1",
