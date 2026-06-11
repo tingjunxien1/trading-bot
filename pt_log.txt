@@ -167,3 +167,30 @@
 [2026-06-10 19:58:28][INFO] Saved. Run complete.
 
 [2026-06-10 19:58:28][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-11 12:17:00][INFO] ====================================================================
+[2026-06-11 12:17:00][INFO] RUN #10 START
+[2026-06-11 12:17:00][INFO] Market data: 50 coins from coingecko
+[2026-06-11 12:17:00][INFO] Source: coingecko | Coins: 50 | F&G: 12 (Extreme Fear)
+[2026-06-11 12:17:00][INFO] --- EXIT CHECK ---
+[2026-06-11 12:17:00][INFO] --- LONG ENTRY CHECK (0/3) ---
+[2026-06-11 12:17:00][INFO]   📈 LONG  OPEN  BEAT     @ $      8.8400  val=$246.28  score=37.14
+[2026-06-11 12:17:01][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-11 12:17:01][INFO]   📈 LONG  OPEN  XMR      @ $    346.3600  val=$246.28  score=7.09
+[2026-06-11 12:17:01][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-11 12:17:01][INFO]   📈 LONG  OPEN  BTC      @ $ 63,070.0000  val=$246.28  score=3.56
+[2026-06-11 12:17:01][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-11 12:17:01][INFO] --- SHORT ENTRY CHECK (2/2) ---
+[2026-06-11 12:17:01][INFO]   Max shorts (2) reached.
+[2026-06-11 12:17:01][INFO] ────────────────────────────────────────────────────────────────────
+[2026-06-11 12:17:01][INFO] EQUITY  $2,104.20  (+5.210%)  P&L $+104.20
+[2026-06-11 12:17:01][INFO] CASH    $871.92  |  Drawdown -0.24%  |  Win 100%
+[2026-06-11 12:17:01][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 7
+[2026-06-11 12:17:01][INFO]   📈 LONG  BEAT     entry=$8.8400  now=$8.8400  pnl=+0.00%
+[2026-06-11 12:17:01][INFO]   📈 LONG  XMR      entry=$346.3600  now=$346.3600  pnl=+0.00%
+[2026-06-11 12:17:01][INFO]   📈 LONG  BTC      entry=$63,070.0000  now=$63,070.0000  pnl=+0.00%
+[2026-06-11 12:17:01][INFO]   📉 SHORT BCH      entry=$209.5200  now=$200.6400  pnl=+4.24%
+[2026-06-11 12:17:01][INFO]   📉 SHORT LAB      entry=$7.8600  now=$7.8100  pnl=+0.64%
+[2026-06-11 12:17:01][INFO] ====================================================================
+[2026-06-11 12:17:01][INFO] Saved. Run complete.
+
+[2026-06-11 12:17:01][INFO] Notification sent → topic=chris-trading-2026 status=200
