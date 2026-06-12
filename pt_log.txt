@@ -216,3 +216,25 @@
 [2026-06-11 21:10:09][INFO] Saved. Run complete.
 
 [2026-06-11 21:10:10][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-12 11:51:50][INFO] ====================================================================
+[2026-06-12 11:51:50][INFO] RUN #12 START
+[2026-06-12 11:51:50][INFO] Market data: 50 coins from coingecko
+[2026-06-12 11:51:50][INFO] Source: coingecko | Coins: 50 | F&G: 12 (Extreme Fear)
+[2026-06-12 11:51:50][INFO] --- EXIT CHECK ---
+[2026-06-12 11:51:50][INFO]   ❌ SHORT CLOSE LAB      @ $     10.4100  pnl=$-80.06 (-32.44%)  [SHORT_STOP_LOSS (-32.44%)]
+[2026-06-12 11:51:50][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-12 11:51:50][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-06-12 11:51:50][INFO]   Max longs (3) reached.
+[2026-06-12 11:51:50][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-06-12 11:51:50][INFO] ────────────────────────────────────────────────────────────────────
+[2026-06-12 11:51:50][INFO] EQUITY  $2,031.89  (+1.595%)  P&L $+31.89
+[2026-06-12 11:51:50][INFO] CASH    $1,038.38  |  Drawdown -4.79%  |  Win 67%
+[2026-06-12 11:51:50][INFO] LONGS: 3  SHORTS: 1  TOTAL TRADES: 7
+[2026-06-12 11:51:50][INFO]   📈 LONG  BEAT     entry=$8.8400  now=$8.2300  pnl=-6.90%
+[2026-06-12 11:51:50][INFO]   📈 LONG  XMR      entry=$346.3600  now=$385.7600  pnl=+11.38%
+[2026-06-12 11:51:50][INFO]   📈 LONG  BTC      entry=$63,070.0000  now=$63,748.0000  pnl=+1.07%
+[2026-06-12 11:51:50][INFO]   📉 SHORT BCH      entry=$209.5200  now=$204.3000  pnl=+2.49%
+[2026-06-12 11:51:50][INFO] ====================================================================
+[2026-06-12 11:51:50][INFO] Saved. Run complete.
+
+[2026-06-12 11:51:50][INFO] Notification sent → topic=chris-trading-2026 status=200
