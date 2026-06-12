@@ -2,18 +2,18 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 1038.3767,
-    "equity": 2031.892,
+    "equity": 2058.6441,
     "peak_equity": 2134.1783,
     "max_drawdown_pct": -4.7928,
-    "total_pnl": 31.892,
-    "total_pnl_pct": 1.5946
+    "total_pnl": 58.6441,
+    "total_pnl_pct": 2.9322
   },
   "longs": {
     "BEAT": {
       "direction": "LONG",
       "name": "Audiera",
       "entry_price": 8.84,
-      "current_price": 8.23,
+      "current_price": 9.85,
       "quantity": 27.85953838,
       "cost_basis": 246.2783,
       "fee_open": 0.2463,
@@ -21,15 +21,15 @@
       "take_profit": 10.166,
       "score": 37.14,
       "c24h_entry": 63.438319171096005,
-      "pnl_pct": -6.9,
-      "pnl_usd": -16.9943,
+      "pnl_pct": 11.425,
+      "pnl_usd": 28.1381,
       "opened_at": "2026-06-11 12:17:00"
     },
     "XMR": {
       "direction": "LONG",
       "name": "Monero",
       "entry_price": 346.36,
-      "current_price": 385.76,
+      "current_price": 359.01,
       "quantity": 0.71104723,
       "cost_basis": 246.2783,
       "fee_open": 0.2463,
@@ -37,15 +37,15 @@
       "take_profit": 398.314,
       "score": 7.092,
       "c24h_entry": 11.977395124548977,
-      "pnl_pct": 11.375,
-      "pnl_usd": 28.0153,
+      "pnl_pct": 3.652,
+      "pnl_usd": 8.9947,
       "opened_at": "2026-06-11 12:17:01"
     },
     "BTC": {
       "direction": "LONG",
       "name": "Bitcoin",
       "entry_price": 63070.0,
-      "current_price": 63748.0,
+      "current_price": 63728.0,
       "quantity": 0.00390484,
       "cost_basis": 246.2783,
       "fee_open": 0.2463,
@@ -53,8 +53,8 @@
       "take_profit": 72530.5,
       "score": 3.563,
       "c24h_entry": 3.2610343071626002,
-      "pnl_pct": 1.075,
-      "pnl_usd": 2.6475,
+      "pnl_pct": 1.043,
+      "pnl_usd": 2.5694,
       "opened_at": "2026-06-11 12:17:01"
     }
   },
@@ -63,7 +63,7 @@
       "direction": "SHORT",
       "name": "Bitcoin Cash",
       "entry_price": 209.52,
-      "current_price": 204.3,
+      "current_price": 203.66,
       "quantity": 1.12234288,
       "cost_basis": 235.1533,
       "fee_open": 0.2352,
@@ -71,8 +71,8 @@
       "take_profit": 178.092,
       "score": -3.925,
       "c24h_entry": -8.650426592016354,
-      "pnl_pct": 2.491,
-      "pnl_usd": 5.8586,
+      "pnl_pct": 2.797,
+      "pnl_usd": 6.5769,
       "opened_at": "2026-06-08 23:49:59"
     }
   },
@@ -346,6 +346,18 @@
     {
       "ts": "2026-06-12 11:51",
       "equity": 2031.892
+    },
+    {
+      "ts": "2026-06-12 18:32",
+      "equity": 2058.6441
+    },
+    {
+      "ts": "2026-06-12 18:32",
+      "equity": 2058.6441
+    },
+    {
+      "ts": "2026-06-12 18:32",
+      "equity": 2058.6441
     }
   ],
   "stats": {
@@ -353,9 +365,9 @@
     "winning_trades": 2,
     "losing_trades": 1,
     "total_fees_paid": 2.4167,
-    "runs": 12,
+    "runs": 13,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-06-12 11:51:50",
+    "last_run": "2026-06-12 18:32:12",
     "best_trade_pct": 21.725,
     "worst_trade_pct": -32.443,
     "active_strategy": "long_short_momentum_v1",
