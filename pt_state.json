@@ -1,19 +1,19 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 932.4233,
-    "equity": 1895.2376,
+    "cash": 711.5253,
+    "equity": 1885.9103,
     "peak_equity": 2134.1783,
-    "max_drawdown_pct": -11.1959,
-    "total_pnl": -104.7624,
-    "total_pnl_pct": -5.2381
+    "max_drawdown_pct": -11.633,
+    "total_pnl": -114.0897,
+    "total_pnl_pct": -5.7045
   },
   "longs": {
     "XMR": {
       "direction": "LONG",
       "name": "Monero",
       "entry_price": 346.36,
-      "current_price": 339.5,
+      "current_price": 344.81,
       "quantity": 0.71104723,
       "cost_basis": 246.2783,
       "fee_open": 0.2463,
@@ -21,15 +21,15 @@
       "take_profit": 398.314,
       "score": 7.092,
       "c24h_entry": 11.977395124548977,
-      "pnl_pct": -1.981,
-      "pnl_usd": -4.8778,
+      "pnl_pct": -0.448,
+      "pnl_usd": -1.1021,
       "opened_at": "2026-06-11 12:17:01"
     },
     "BTC": {
       "direction": "LONG",
       "name": "Bitcoin",
       "entry_price": 63070.0,
-      "current_price": 63732.0,
+      "current_price": 64268.0,
       "quantity": 0.00390484,
       "cost_basis": 246.2783,
       "fee_open": 0.2463,
@@ -37,15 +37,15 @@
       "take_profit": 72530.5,
       "score": 3.563,
       "c24h_entry": 3.2610343071626002,
-      "pnl_pct": 1.05,
-      "pnl_usd": 2.585,
+      "pnl_pct": 1.899,
+      "pnl_usd": 4.678,
       "opened_at": "2026-06-11 12:17:01"
     },
     "LAB": {
       "direction": "LONG",
       "name": "LAB",
       "entry_price": 9.86,
-      "current_price": 10.02,
+      "current_price": 9.43,
       "quantity": 23.47951966,
       "cost_basis": 231.5081,
       "fee_open": 0.2315,
@@ -53,8 +53,8 @@
       "take_profit": 11.339,
       "score": 8.718,
       "c24h_entry": 13.951331936850227,
-      "pnl_pct": 1.623,
-      "pnl_usd": 3.7567,
+      "pnl_pct": -4.361,
+      "pnl_usd": -10.0962,
       "opened_at": "2026-06-13 00:05:46"
     }
   },
@@ -63,7 +63,7 @@
       "direction": "SHORT",
       "name": "Bitcoin Cash",
       "entry_price": 209.52,
-      "current_price": 207.62,
+      "current_price": 208.62,
       "quantity": 1.12234288,
       "cost_basis": 235.1533,
       "fee_open": 0.2352,
@@ -71,9 +71,25 @@
       "take_profit": 178.092,
       "score": -3.925,
       "c24h_entry": -8.650426592016354,
-      "pnl_pct": 0.907,
-      "pnl_usd": 2.1325,
+      "pnl_pct": 0.43,
+      "pnl_usd": 1.0101,
       "opened_at": "2026-06-08 23:49:59"
+    },
+    "BEAT": {
+      "direction": "SHORT",
+      "name": "Audiera",
+      "entry_price": 7.36,
+      "current_price": 7.36,
+      "quantity": 29.98333247,
+      "cost_basis": 220.6773,
+      "fee_open": 0.2207,
+      "stop_loss": 7.8752,
+      "take_profit": 6.256,
+      "score": -14.292,
+      "c24h_entry": -28.255811312987444,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-06-13 15:59:51"
     }
   },
   "trade_history": [
@@ -244,6 +260,18 @@
       "opened_at": "2026-06-13 00:05:46",
       "reason": "SHORT_STOP_LOSS (-30.94%)",
       "timestamp": "2026-06-13 10:17:14"
+    },
+    {
+      "action": "SHORT_OPEN",
+      "symbol": "BEAT",
+      "price": 7.36,
+      "qty": 29.98333247,
+      "value": 220.68,
+      "fee": 0.2207,
+      "score": -14.292,
+      "c24h": -28.255811312987444,
+      "reason": "Bearish momentum score -14.29 | 24h -28.26%",
+      "timestamp": "2026-06-13 15:59:51"
     }
   ],
   "equity_curve": [
@@ -430,16 +458,28 @@
     {
       "ts": "2026-06-13 10:17",
       "equity": 1895.2376
+    },
+    {
+      "ts": "2026-06-13 15:59",
+      "equity": 1886.131
+    },
+    {
+      "ts": "2026-06-13 15:59",
+      "equity": 1886.131
+    },
+    {
+      "ts": "2026-06-13 15:59",
+      "equity": 1885.9103
     }
   ],
   "stats": {
-    "total_trades": 9,
+    "total_trades": 10,
     "winning_trades": 2,
     "losing_trades": 3,
-    "total_fees_paid": 3.3093,
-    "runs": 15,
+    "total_fees_paid": 3.53,
+    "runs": 16,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-06-13 10:17:13",
+    "last_run": "2026-06-13 15:59:51",
     "best_trade_pct": 21.725,
     "worst_trade_pct": -32.443,
     "active_strategy": "long_short_momentum_v1",
