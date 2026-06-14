@@ -373,3 +373,28 @@
 [2026-06-14 08:57:04][INFO] Saved. Run complete.
 
 [2026-06-14 08:57:04][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-14 15:29:27][INFO] ====================================================================
+[2026-06-14 15:29:27][INFO] RUN #19 START
+[2026-06-14 15:29:27][INFO] Market data: 50 coins from coingecko
+[2026-06-14 15:29:27][INFO] Source: coingecko | Coins: 50 | F&G: 18 (Extreme Fear)
+[2026-06-14 15:29:27][INFO] --- EXIT CHECK ---
+[2026-06-14 15:29:27][INFO]   ✅ SHORT CLOSE BEAT     @ $      5.8000  pnl=$+46.77 (+21.20%)  [SHORT_TAKE_PROFIT (+21.20%)]
+[2026-06-14 15:29:27][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-14 15:29:27][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-06-14 15:29:27][INFO]   Max longs (3) reached.
+[2026-06-14 15:29:27][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-06-14 15:29:27][INFO]   📉 SHORT OPEN  BEAT     @ $      5.8000  val=$227.68  score=-9.93
+[2026-06-14 15:29:27][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-14 15:29:27][INFO] ────────────────────────────────────────────────────────────────────
+[2026-06-14 15:29:27][INFO] EQUITY  $1,945.73  (-2.714%)  P&L $-54.27
+[2026-06-14 15:29:27][INFO] CASH    $750.85  |  Drawdown -11.63%  |  Win 50%
+[2026-06-14 15:29:27][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 11
+[2026-06-14 15:29:27][INFO]   📈 LONG  XMR      entry=$346.3600  now=$339.3500  pnl=-2.02%
+[2026-06-14 15:29:27][INFO]   📈 LONG  BTC      entry=$63,070.0000  now=$64,025.0000  pnl=+1.51%
+[2026-06-14 15:29:27][INFO]   📈 LONG  LAB      entry=$9.8600  now=$9.8500  pnl=-0.10%
+[2026-06-14 15:29:27][INFO]   📉 SHORT BCH      entry=$209.5200  now=$201.0800  pnl=+4.03%
+[2026-06-14 15:29:27][INFO]   📉 SHORT BEAT     entry=$5.8000  now=$5.8000  pnl=+0.00%
+[2026-06-14 15:29:27][INFO] ====================================================================
+[2026-06-14 15:29:27][INFO] Saved. Run complete.
+
+[2026-06-14 15:29:27][INFO] Notification sent → topic=chris-trading-2026 status=200
