@@ -623,3 +623,27 @@
 [2026-06-19 12:33:33][INFO] Saved. Run complete.
 
 [2026-06-19 12:33:33][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-19 19:16:20][INFO] ====================================================================
+[2026-06-19 19:16:20][INFO] RUN #30 START
+[2026-06-19 19:16:20][INFO] Market data: 50 coins from coingecko
+[2026-06-19 19:16:20][INFO] Source: coingecko | Coins: 50 | F&G: 14 (Extreme Fear)
+[2026-06-19 19:16:20][INFO] --- EXIT CHECK ---
+[2026-06-19 19:16:20][INFO]   ❌ LONG  CLOSE LAB      @ $     12.8600  pnl=$-47.28 (-19.37%)  [STOP_LOSS (-19.37%)]
+[2026-06-19 19:16:20][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-19 19:16:20][INFO] --- LONG ENTRY CHECK (1/3) ---
+[2026-06-19 19:16:20][INFO]   📈 LONG  OPEN  HYPE     @ $     70.8700  val=$237.10  score=4.50
+[2026-06-19 19:16:21][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-19 19:16:21][INFO] --- SHORT ENTRY CHECK (2/2) ---
+[2026-06-19 19:16:21][INFO]   Max shorts (2) reached.
+[2026-06-19 19:16:21][INFO] ────────────────────────────────────────────────────────────────────
+[2026-06-19 19:16:21][INFO] EQUITY  $2,026.28  (+1.314%)  P&L $+26.28
+[2026-06-19 19:16:21][INFO] CASH    $915.78  |  Drawdown -11.63%  |  Win 45%
+[2026-06-19 19:16:21][INFO] LONGS: 2  SHORTS: 2  TOTAL TRADES: 15
+[2026-06-19 19:16:21][INFO]   📈 LONG  BTC      entry=$63,070.0000  now=$62,994.0000  pnl=-0.12%
+[2026-06-19 19:16:21][INFO]   📈 LONG  HYPE     entry=$70.8700  now=$70.8700  pnl=+0.00%
+[2026-06-19 19:16:21][INFO]   📉 SHORT BEAT     entry=$5.8000  now=$5.8000  pnl=+0.00%
+[2026-06-19 19:16:21][INFO]   📉 SHORT GRAM     entry=$1.6700  now=$1.5800  pnl=+5.39%
+[2026-06-19 19:16:21][INFO] ====================================================================
+[2026-06-19 19:16:21][INFO] Saved. Run complete.
+
+[2026-06-19 19:16:21][INFO] Notification sent → topic=chris-trading-2026 status=200
