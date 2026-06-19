@@ -647,3 +647,26 @@
 [2026-06-19 19:16:21][INFO] Saved. Run complete.
 
 [2026-06-19 19:16:21][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-19 22:38:57][INFO] ====================================================================
+[2026-06-19 22:38:57][INFO] RUN #31 START
+[2026-06-19 22:38:57][INFO] Market data: 50 coins from coingecko
+[2026-06-19 22:38:57][INFO] Source: coingecko | Coins: 50 | F&G: 14 (Extreme Fear)
+[2026-06-19 22:38:57][INFO] --- EXIT CHECK ---
+[2026-06-19 22:38:57][INFO] --- LONG ENTRY CHECK (2/3) ---
+[2026-06-19 22:38:57][INFO]   📈 LONG  OPEN  FIGR_HELOC @ $      1.0360  val=$236.53  score=3.56
+[2026-06-19 22:38:58][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-19 22:38:58][INFO] --- SHORT ENTRY CHECK (2/2) ---
+[2026-06-19 22:38:58][INFO]   Max shorts (2) reached.
+[2026-06-19 22:38:58][INFO] ────────────────────────────────────────────────────────────────────
+[2026-06-19 22:38:58][INFO] EQUITY  $2,021.38  (+1.069%)  P&L $+21.38
+[2026-06-19 22:38:58][INFO] CASH    $679.01  |  Drawdown -11.63%  |  Win 45%
+[2026-06-19 22:38:58][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 16
+[2026-06-19 22:38:58][INFO]   📈 LONG  BTC      entry=$63,070.0000  now=$63,186.0000  pnl=+0.18%
+[2026-06-19 22:38:58][INFO]   📈 LONG  HYPE     entry=$70.8700  now=$69.9300  pnl=-1.33%
+[2026-06-19 22:38:58][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0360  pnl=+0.00%
+[2026-06-19 22:38:58][INFO]   📉 SHORT BEAT     entry=$5.8000  now=$5.8000  pnl=+0.00%
+[2026-06-19 22:38:58][INFO]   📉 SHORT GRAM     entry=$1.6700  now=$1.5900  pnl=+4.79%
+[2026-06-19 22:38:58][INFO] ====================================================================
+[2026-06-19 22:38:58][INFO] Saved. Run complete.
+
+[2026-06-19 22:38:58][INFO] Notification sent → topic=chris-trading-2026 status=200
