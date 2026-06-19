@@ -1,35 +1,19 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 731.98,
-    "equity": 2087.2838,
+    "cash": 957.3413,
+    "equity": 2066.9375,
     "peak_equity": 2134.1783,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 87.2838,
-    "total_pnl_pct": 4.3642
+    "total_pnl": 66.9375,
+    "total_pnl_pct": 3.3469
   },
   "longs": {
-    "XMR": {
-      "direction": "LONG",
-      "name": "Monero",
-      "entry_price": 346.36,
-      "current_price": 324.84,
-      "quantity": 0.71104723,
-      "cost_basis": 246.2783,
-      "fee_open": 0.2463,
-      "stop_loss": 322.1148,
-      "take_profit": 398.314,
-      "score": 7.092,
-      "c24h_entry": 11.977395124548977,
-      "pnl_pct": -6.213,
-      "pnl_usd": -15.3017,
-      "opened_at": "2026-06-11 12:17:01"
-    },
     "BTC": {
       "direction": "LONG",
       "name": "Bitcoin",
       "entry_price": 63070.0,
-      "current_price": 63070.0,
+      "current_price": 62481.0,
       "quantity": 0.00390484,
       "cost_basis": 246.2783,
       "fee_open": 0.2463,
@@ -37,15 +21,15 @@
       "take_profit": 72530.5,
       "score": 3.563,
       "c24h_entry": 3.2610343071626002,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
+      "pnl_pct": -0.934,
+      "pnl_usd": -2.3,
       "opened_at": "2026-06-11 12:17:01"
     },
     "LAB": {
       "direction": "LONG",
       "name": "LAB",
       "entry_price": 15.95,
-      "current_price": 17.49,
+      "current_price": 15.78,
       "quantity": 15.23896832,
       "cost_basis": 243.0615,
       "fee_open": 0.2431,
@@ -53,8 +37,8 @@
       "take_profit": 18.3425,
       "score": 13.766,
       "c24h_entry": 23.927440137535832,
-      "pnl_pct": 9.655,
-      "pnl_usd": 23.468,
+      "pnl_pct": -1.066,
+      "pnl_usd": -2.5906,
       "opened_at": "2026-06-18 11:58:00"
     }
   },
@@ -79,7 +63,7 @@
       "direction": "SHORT",
       "name": "Gram (prev. Toncoin)",
       "entry_price": 1.67,
-      "current_price": 1.65,
+      "current_price": 1.59,
       "quantity": 227.12574772,
       "cost_basis": 379.3,
       "fee_open": 0.3793,
@@ -87,8 +71,8 @@
       "take_profit": 1.4195,
       "score": -3.798,
       "c24h_entry": -6.693645350304169,
-      "pnl_pct": 1.198,
-      "pnl_usd": 4.5425,
+      "pnl_pct": 4.79,
+      "pnl_usd": 18.1701,
       "opened_at": "2026-06-16 18:14:05"
     }
   },
@@ -368,6 +352,18 @@
       "c24h": 23.927440137535832,
       "reason": "Bullish momentum score 13.77 | 24h +23.93%",
       "timestamp": "2026-06-18 11:58:00"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "XMR",
+      "price": 317.26,
+      "value": 225.5868,
+      "pnl_usd": -20.917,
+      "pnl_pct": -8.402,
+      "fee": 0.2256,
+      "opened_at": "2026-06-11 12:17:01",
+      "reason": "STOP_LOSS (-8.40%)",
+      "timestamp": "2026-06-19 12:33:33"
     }
   ],
   "equity_curve": [
@@ -710,16 +706,28 @@
     {
       "ts": "2026-06-18 20:42",
       "equity": 2087.2838
+    },
+    {
+      "ts": "2026-06-19 12:33",
+      "equity": 2067.163
+    },
+    {
+      "ts": "2026-06-19 12:33",
+      "equity": 2066.9375
+    },
+    {
+      "ts": "2026-06-19 12:33",
+      "equity": 2066.9375
     }
   ],
   "stats": {
     "total_trades": 14,
     "winning_trades": 5,
-    "losing_trades": 4,
-    "total_fees_paid": 5.9835,
-    "runs": 28,
+    "losing_trades": 5,
+    "total_fees_paid": 6.2091,
+    "runs": 29,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-06-18 20:42:58",
+    "last_run": "2026-06-19 12:33:32",
     "best_trade_pct": 33.874,
     "worst_trade_pct": -32.443,
     "active_strategy": "long_short_momentum_v1",
