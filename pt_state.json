@@ -2,18 +2,18 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 679.0134,
-    "equity": 2023.9383,
+    "equity": 2018.2409,
     "peak_equity": 2134.1783,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 23.9383,
-    "total_pnl_pct": 1.1969
+    "total_pnl": 18.2409,
+    "total_pnl_pct": 0.912
   },
   "longs": {
     "BTC": {
       "direction": "LONG",
       "name": "Bitcoin",
       "entry_price": 63070.0,
-      "current_price": 63632.0,
+      "current_price": 63995.0,
       "quantity": 0.00390484,
       "cost_basis": 246.2783,
       "fee_open": 0.2463,
@@ -21,15 +21,15 @@
       "take_profit": 72530.5,
       "score": 3.563,
       "c24h_entry": 3.2610343071626002,
-      "pnl_pct": 0.891,
-      "pnl_usd": 2.1945,
+      "pnl_pct": 1.467,
+      "pnl_usd": 3.612,
       "opened_at": "2026-06-11 12:17:01"
     },
     "HYPE": {
       "direction": "LONG",
       "name": "Hyperliquid",
       "entry_price": 70.87,
-      "current_price": 70.99,
+      "current_price": 70.9,
       "quantity": 3.3455994,
       "cost_basis": 237.1026,
       "fee_open": 0.2371,
@@ -37,8 +37,8 @@
       "take_profit": 81.5005,
       "score": 4.5,
       "c24h_entry": 4.333107297881911,
-      "pnl_pct": 0.169,
-      "pnl_usd": 0.4015,
+      "pnl_pct": 0.042,
+      "pnl_usd": 0.1004,
       "opened_at": "2026-06-19 19:16:20"
     },
     "FIGR_HELOC": {
@@ -79,7 +79,7 @@
       "direction": "SHORT",
       "name": "Gram (prev. Toncoin)",
       "entry_price": 1.67,
-      "current_price": 1.6,
+      "current_price": 1.63,
       "quantity": 227.12574772,
       "cost_basis": 379.3,
       "fee_open": 0.3793,
@@ -87,8 +87,8 @@
       "take_profit": 1.4195,
       "score": -3.798,
       "c24h_entry": -6.693645350304169,
-      "pnl_pct": 4.192,
-      "pnl_usd": 15.8988,
+      "pnl_pct": 2.395,
+      "pnl_usd": 9.085,
       "opened_at": "2026-06-16 18:14:05"
     }
   },
@@ -806,6 +806,18 @@
     {
       "ts": "2026-06-20 10:15",
       "equity": 2023.9383
+    },
+    {
+      "ts": "2026-06-20 16:02",
+      "equity": 2018.2409
+    },
+    {
+      "ts": "2026-06-20 16:02",
+      "equity": 2018.2409
+    },
+    {
+      "ts": "2026-06-20 16:02",
+      "equity": 2018.2409
     }
   ],
   "stats": {
@@ -813,9 +825,9 @@
     "winning_trades": 5,
     "losing_trades": 6,
     "total_fees_paid": 6.8787,
-    "runs": 32,
+    "runs": 33,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-06-20 10:15:36",
+    "last_run": "2026-06-20 16:02:58",
     "best_trade_pct": 33.874,
     "worst_trade_pct": -32.443,
     "active_strategy": "long_short_momentum_v1",
