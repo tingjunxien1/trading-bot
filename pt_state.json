@@ -2,18 +2,18 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 679.0134,
-    "equity": 2001.1486,
+    "equity": 1997.3547,
     "peak_equity": 2134.1783,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 1.1486,
-    "total_pnl_pct": 0.0574
+    "total_pnl": -2.6453,
+    "total_pnl_pct": -0.1323
   },
   "longs": {
     "BTC": {
       "direction": "LONG",
       "name": "Bitcoin",
       "entry_price": 63070.0,
-      "current_price": 63737.0,
+      "current_price": 64654.0,
       "quantity": 0.00390484,
       "cost_basis": 246.2783,
       "fee_open": 0.2463,
@@ -21,15 +21,15 @@
       "take_profit": 72530.5,
       "score": 3.563,
       "c24h_entry": 3.2610343071626002,
-      "pnl_pct": 1.058,
-      "pnl_usd": 2.6045,
+      "pnl_pct": 2.511,
+      "pnl_usd": 6.1853,
       "opened_at": "2026-06-11 12:17:01"
     },
     "HYPE": {
       "direction": "LONG",
       "name": "Hyperliquid",
       "entry_price": 70.87,
-      "current_price": 67.45,
+      "current_price": 66.88,
       "quantity": 3.3455994,
       "cost_basis": 237.1026,
       "fee_open": 0.2371,
@@ -37,15 +37,15 @@
       "take_profit": 81.5005,
       "score": 4.5,
       "c24h_entry": 4.333107297881911,
-      "pnl_pct": -4.826,
-      "pnl_usd": -11.4419,
+      "pnl_pct": -5.63,
+      "pnl_usd": -13.3489,
       "opened_at": "2026-06-19 19:16:20"
     },
     "FIGR_HELOC": {
       "direction": "LONG",
       "name": "Figure Heloc",
       "entry_price": 1.036,
-      "current_price": 1.034,
+      "current_price": 1.02,
       "quantity": 228.30976824,
       "cost_basis": 236.5289,
       "fee_open": 0.2365,
@@ -53,8 +53,8 @@
       "take_profit": 1.1914,
       "score": 3.556,
       "c24h_entry": 3.3411576208606997,
-      "pnl_pct": -0.193,
-      "pnl_usd": -0.4566,
+      "pnl_pct": -1.544,
+      "pnl_usd": -3.653,
       "opened_at": "2026-06-19 22:38:57"
     }
   },
@@ -79,7 +79,7 @@
       "direction": "SHORT",
       "name": "Gram (prev. Toncoin)",
       "entry_price": 1.67,
-      "current_price": 1.65,
+      "current_price": 1.66,
       "quantity": 227.12574772,
       "cost_basis": 379.3,
       "fee_open": 0.3793,
@@ -87,8 +87,8 @@
       "take_profit": 1.4195,
       "score": -3.798,
       "c24h_entry": -6.693645350304169,
-      "pnl_pct": 1.198,
-      "pnl_usd": 4.5425,
+      "pnl_pct": 0.599,
+      "pnl_usd": 2.2713,
       "opened_at": "2026-06-16 18:14:05"
     }
   },
@@ -866,6 +866,18 @@
     {
       "ts": "2026-06-21 21:59",
       "equity": 2001.1486
+    },
+    {
+      "ts": "2026-06-22 16:15",
+      "equity": 1997.3547
+    },
+    {
+      "ts": "2026-06-22 16:15",
+      "equity": 1997.3547
+    },
+    {
+      "ts": "2026-06-22 16:15",
+      "equity": 1997.3547
     }
   ],
   "stats": {
@@ -873,9 +885,9 @@
     "winning_trades": 5,
     "losing_trades": 6,
     "total_fees_paid": 6.8787,
-    "runs": 37,
+    "runs": 38,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-06-21 21:59:52",
+    "last_run": "2026-06-22 16:15:19",
     "best_trade_pct": 33.874,
     "worst_trade_pct": -32.443,
     "active_strategy": "long_short_momentum_v1",
