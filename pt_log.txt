@@ -846,3 +846,28 @@
 [2026-06-22 22:27:47][INFO] Saved. Run complete.
 
 [2026-06-22 22:27:47][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-23 10:48:11][INFO] ====================================================================
+[2026-06-23 10:48:11][INFO] RUN #40 START
+[2026-06-23 10:48:11][INFO] Market data: 50 coins from coingecko
+[2026-06-23 10:48:11][INFO] Source: coingecko | Coins: 50 | F&G: 23 (Extreme Fear)
+[2026-06-23 10:48:11][INFO] --- EXIT CHECK ---
+[2026-06-23 10:48:11][INFO]   ❌ LONG  CLOSE HYPE     @ $     62.2500  pnl=$-29.05 (-12.16%)  [STOP_LOSS (-12.16%)]
+[2026-06-23 10:48:12][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-23 10:48:12][INFO] --- LONG ENTRY CHECK (2/3) ---
+[2026-06-23 10:48:12][INFO]   📈 LONG  OPEN  RAIN     @ $      0.0158  val=$378.52  score=6.56
+[2026-06-23 10:48:12][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-06-23 10:48:12][INFO] --- SHORT ENTRY CHECK (2/2) ---
+[2026-06-23 10:48:12][INFO]   Max shorts (2) reached.
+[2026-06-23 10:48:12][INFO] ────────────────────────────────────────────────────────────────────
+[2026-06-23 10:48:12][INFO] EQUITY  $2,002.36  (+0.118%)  P&L $+2.36
+[2026-06-23 10:48:12][INFO] CASH    $508.17  |  Drawdown -11.63%  |  Win 42%
+[2026-06-23 10:48:12][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 17
+[2026-06-23 10:48:12][INFO]   📈 LONG  BTC      entry=$63,070.0000  now=$62,195.0000  pnl=-1.39%
+[2026-06-23 10:48:12][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0350  pnl=-0.10%
+[2026-06-23 10:48:12][INFO]   📈 LONG  RAIN     entry=$0.0158  now=$0.0158  pnl=+0.00%
+[2026-06-23 10:48:12][INFO]   📉 SHORT BEAT     entry=$5.8000  now=$5.8000  pnl=+0.00%
+[2026-06-23 10:48:12][INFO]   📉 SHORT GRAM     entry=$1.6700  now=$1.5400  pnl=+7.78%
+[2026-06-23 10:48:12][INFO] ====================================================================
+[2026-06-23 10:48:12][INFO] Saved. Run complete.
+
+[2026-06-23 10:48:12][INFO] Notification sent → topic=chris-trading-2026 status=200
