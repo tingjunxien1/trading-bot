@@ -1799,3 +1799,28 @@
 [2026-07-06 00:15:50][INFO] Saved. Run complete.
 
 [2026-07-06 00:15:50][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-07-06 14:17:19][INFO] ====================================================================
+[2026-07-06 14:17:19][INFO] RUN #83 START
+[2026-07-06 14:17:19][INFO] Market data: 50 coins from coingecko
+[2026-07-06 14:17:19][INFO] Source: coingecko | Coins: 50 | F&G: 24 (Extreme Fear)
+[2026-07-06 14:17:19][INFO] --- EXIT CHECK ---
+[2026-07-06 14:17:19][INFO]   ✅ SHORT CLOSE M        @ $      1.1300  pnl=$+105.18 (+28.93%)  [SHORT_TAKE_PROFIT (+28.93%)]
+[2026-07-06 14:17:20][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-07-06 14:17:20][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-07-06 14:17:20][INFO]   Max longs (3) reached.
+[2026-07-06 14:17:20][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-07-06 14:17:20][INFO]   📉 SHORT OPEN  M        @ $      1.1300  val=$380.73  score=-9.56
+[2026-07-06 14:17:20][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-07-06 14:17:20][INFO] ────────────────────────────────────────────────────────────────────
+[2026-07-06 14:17:20][INFO] EQUITY  $2,014.08  (+0.704%)  P&L $+14.08
+[2026-07-06 14:17:20][INFO] CASH    $575.77  |  Drawdown -11.63%  |  Win 40%
+[2026-07-06 14:17:20][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 20
+[2026-07-06 14:17:20][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0090  pnl=-2.61%
+[2026-07-06 14:17:20][INFO]   📈 LONG  RAIN     entry=$0.0158  now=$0.0150  pnl=-5.11%
+[2026-07-06 14:17:20][INFO]   📈 LONG  WBT      entry=$53.9300  now=$55.8400  pnl=+3.54%
+[2026-07-06 14:17:20][INFO]   📉 SHORT BEAT     entry=$5.8000  now=$5.8000  pnl=+0.00%
+[2026-07-06 14:17:20][INFO]   📉 SHORT M        entry=$1.1300  now=$1.1300  pnl=+0.00%
+[2026-07-06 14:17:20][INFO] ====================================================================
+[2026-07-06 14:17:20][INFO] Saved. Run complete.
+
+[2026-07-06 14:17:20][INFO] Notification sent → topic=chris-trading-2026 status=200
