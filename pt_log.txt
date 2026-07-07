@@ -1846,3 +1846,28 @@
 [2026-07-06 21:03:56][INFO] Saved. Run complete.
 
 [2026-07-06 21:03:56][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-07-07 10:30:29][INFO] ====================================================================
+[2026-07-07 10:30:29][INFO] RUN #85 START
+[2026-07-07 10:30:30][INFO] Market data: 50 coins from coingecko
+[2026-07-07 10:30:30][INFO] Source: coingecko | Coins: 50 | F&G: 27 (Fear)
+[2026-07-07 10:30:30][INFO] --- EXIT CHECK ---
+[2026-07-07 10:30:30][INFO]   ❌ SHORT CLOSE M        @ $      1.5100  pnl=$-128.03 (-33.63%)  [SHORT_STOP_LOSS (-33.63%)]
+[2026-07-07 10:30:30][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-07-07 10:30:30][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-07-07 10:30:30][INFO]   Max longs (3) reached.
+[2026-07-07 10:30:30][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-07-07 10:30:30][INFO]   📉 SHORT OPEN  LAB      @ $     14.7700  val=$358.14  score=-6.48
+[2026-07-07 10:30:30][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-07-07 10:30:30][INFO] ────────────────────────────────────────────────────────────────────
+[2026-07-07 10:30:30][INFO] EQUITY  $1,894.55  (-5.272%)  P&L $-105.45
+[2026-07-07 10:30:30][INFO] CASH    $469.60  |  Drawdown -11.63%  |  Win 38%
+[2026-07-07 10:30:30][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 21
+[2026-07-07 10:30:30][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0350  pnl=-0.10%
+[2026-07-07 10:30:30][INFO]   📈 LONG  RAIN     entry=$0.0158  now=$0.0151  pnl=-4.75%
+[2026-07-07 10:30:30][INFO]   📈 LONG  WBT      entry=$53.9300  now=$56.2900  pnl=+4.38%
+[2026-07-07 10:30:30][INFO]   📉 SHORT BEAT     entry=$5.8000  now=$5.8000  pnl=+0.00%
+[2026-07-07 10:30:30][INFO]   📉 SHORT LAB      entry=$14.7700  now=$14.7700  pnl=+0.00%
+[2026-07-07 10:30:30][INFO] ====================================================================
+[2026-07-07 10:30:30][INFO] Saved. Run complete.
+
+[2026-07-07 10:30:31][INFO] Notification sent → topic=chris-trading-2026 status=200
