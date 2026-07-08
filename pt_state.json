@@ -1,19 +1,19 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 631.5808,
-    "equity": 2076.891,
+    "cash": 981.1033,
+    "equity": 2077.3575,
     "peak_equity": 2134.1783,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 76.891,
-    "total_pnl_pct": 3.8446
+    "total_pnl": 77.3575,
+    "total_pnl_pct": 3.8679
   },
   "longs": {
     "FIGR_HELOC": {
       "direction": "LONG",
       "name": "Figure Heloc",
       "entry_price": 1.036,
-      "current_price": 1.025,
+      "current_price": 1.036,
       "quantity": 228.30976824,
       "cost_basis": 236.5289,
       "fee_open": 0.2365,
@@ -21,31 +21,15 @@
       "take_profit": 1.1914,
       "score": 3.556,
       "c24h_entry": 3.3411576208606997,
-      "pnl_pct": -1.062,
-      "pnl_usd": -2.5114,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
       "opened_at": "2026-06-19 22:38:57"
-    },
-    "RAIN": {
-      "direction": "LONG",
-      "name": "Rain",
-      "entry_price": 0.0158033,
-      "current_price": 0.01471948,
-      "quantity": 23951.75342492,
-      "cost_basis": 378.5167,
-      "fee_open": 0.3785,
-      "stop_loss": 0.01469707,
-      "take_profit": 0.01817379,
-      "score": 6.556,
-      "c24h_entry": 9.796841434862326,
-      "pnl_pct": -6.858,
-      "pnl_usd": -25.9594,
-      "opened_at": "2026-06-23 10:48:12"
     },
     "WBT": {
       "direction": "LONG",
       "name": "WhiteBIT Coin",
       "entry_price": 53.93,
-      "current_price": 54.91,
+      "current_price": 55.14,
       "quantity": 4.30420568,
       "cost_basis": 232.1258,
       "fee_open": 0.2321,
@@ -53,8 +37,8 @@
       "take_profit": 62.0195,
       "score": 8.138,
       "c24h_entry": 12.229482270684207,
-      "pnl_pct": 1.817,
-      "pnl_usd": 4.2181,
+      "pnl_pct": 2.244,
+      "pnl_usd": 5.2081,
       "opened_at": "2026-06-30 22:03:45"
     }
   },
@@ -560,6 +544,18 @@
       "c24h": -57.7065353248587,
       "reason": "Bearish momentum score -31.86 | 24h -57.71%",
       "timestamp": "2026-07-07 22:42:22"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "RAIN",
+      "price": 0.01460738,
+      "value": 349.8724,
+      "pnl_usd": -28.9942,
+      "pnl_pct": -7.568,
+      "fee": 0.3499,
+      "opened_at": "2026-06-23 10:48:12",
+      "reason": "STOP_LOSS (-7.57%)",
+      "timestamp": "2026-07-08 18:25:06"
     }
   ],
   "equity_curve": [
@@ -1634,16 +1630,28 @@
     {
       "ts": "2026-07-08 13:18",
       "equity": 2076.891
+    },
+    {
+      "ts": "2026-07-08 18:25",
+      "equity": 2077.7074
+    },
+    {
+      "ts": "2026-07-08 18:25",
+      "equity": 2077.3575
+    },
+    {
+      "ts": "2026-07-08 18:25",
+      "equity": 2077.3575
     }
   ],
   "stats": {
     "total_trades": 22,
     "winning_trades": 7,
-    "losing_trades": 10,
-    "total_fees_paid": 10.9038,
-    "runs": 89,
+    "losing_trades": 11,
+    "total_fees_paid": 11.2537,
+    "runs": 90,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-07-08 13:18:37",
+    "last_run": "2026-07-08 18:25:05",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
