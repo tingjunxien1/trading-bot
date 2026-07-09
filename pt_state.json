@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 588.3068,
-    "equity": 2084.3551,
+    "equity": 2077.7998,
     "peak_equity": 2134.1783,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 84.3551,
-    "total_pnl_pct": 4.2178
+    "total_pnl": 77.7998,
+    "total_pnl_pct": 3.89
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "WhiteBIT Coin",
       "entry_price": 53.93,
-      "current_price": 55.59,
+      "current_price": 55.44,
       "quantity": 4.30420568,
       "cost_basis": 232.1258,
       "fee_open": 0.2321,
@@ -37,15 +37,15 @@
       "take_profit": 62.0195,
       "score": 8.138,
       "c24h_entry": 12.229482270684207,
-      "pnl_pct": 3.078,
-      "pnl_usd": 7.145,
+      "pnl_pct": 2.8,
+      "pnl_usd": 6.4994,
       "opened_at": "2026-06-30 22:03:45"
     },
     "UNI": {
       "direction": "LONG",
       "name": "Uniswap",
       "entry_price": 3.32,
-      "current_price": 3.37,
+      "current_price": 3.32,
       "quantity": 118.19400777,
       "cost_basis": 392.4041,
       "fee_open": 0.3924,
@@ -53,8 +53,8 @@
       "take_profit": 3.818,
       "score": 4.198,
       "c24h_entry": 5.028553471980523,
-      "pnl_pct": 1.506,
-      "pnl_usd": 5.9097,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
       "opened_at": "2026-07-09 02:34:18"
     }
   },
@@ -1730,6 +1730,18 @@
     {
       "ts": "2026-07-09 10:31",
       "equity": 2084.3551
+    },
+    {
+      "ts": "2026-07-09 13:25",
+      "equity": 2077.7998
+    },
+    {
+      "ts": "2026-07-09 13:25",
+      "equity": 2077.7998
+    },
+    {
+      "ts": "2026-07-09 13:25",
+      "equity": 2077.7998
     }
   ],
   "stats": {
@@ -1737,9 +1749,9 @@
     "winning_trades": 7,
     "losing_trades": 11,
     "total_fees_paid": 11.6461,
-    "runs": 95,
+    "runs": 96,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-07-09 10:31:17",
+    "last_run": "2026-07-09 13:25:37",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
