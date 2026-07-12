@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 635.3263,
-    "equity": 2122.0949,
+    "equity": 2125.3949,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 122.0949,
-    "total_pnl_pct": 6.1047
+    "total_pnl": 125.3949,
+    "total_pnl_pct": 6.2697
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "WhiteBIT Coin",
       "entry_price": 53.93,
-      "current_price": 56.22,
+      "current_price": 56.25,
       "quantity": 4.30420568,
       "cost_basis": 232.1258,
       "fee_open": 0.2321,
@@ -37,15 +37,15 @@
       "take_profit": 62.0195,
       "score": 8.138,
       "c24h_entry": 12.229482270684207,
-      "pnl_pct": 4.246,
-      "pnl_usd": 9.8566,
+      "pnl_pct": 4.302,
+      "pnl_usd": 9.9858,
       "opened_at": "2026-06-30 22:03:45"
     },
     "UNI": {
       "direction": "LONG",
       "name": "Uniswap",
       "entry_price": 3.83,
-      "current_price": 3.64,
+      "current_price": 3.67,
       "quantity": 105.69349292,
       "cost_basis": 404.8061,
       "fee_open": 0.4048,
@@ -53,8 +53,8 @@
       "take_profit": 4.4045,
       "score": 6.889,
       "c24h_entry": 8.270278433403512,
-      "pnl_pct": -4.961,
-      "pnl_usd": -20.0818,
+      "pnl_pct": -4.178,
+      "pnl_usd": -16.911,
       "opened_at": "2026-07-11 21:13:43"
     }
   },
@@ -2282,6 +2282,18 @@
     {
       "ts": "2026-07-12 17:57",
       "equity": 2122.0949
+    },
+    {
+      "ts": "2026-07-12 19:07",
+      "equity": 2125.3949
+    },
+    {
+      "ts": "2026-07-12 19:07",
+      "equity": 2125.3949
+    },
+    {
+      "ts": "2026-07-12 19:07",
+      "equity": 2125.3949
     }
   ],
   "stats": {
@@ -2289,9 +2301,9 @@
     "winning_trades": 8,
     "losing_trades": 11,
     "total_fees_paid": 12.5036,
-    "runs": 139,
+    "runs": 140,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-07-12 17:57:16",
+    "last_run": "2026-07-12 19:07:25",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
