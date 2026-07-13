@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 608.9573,
-    "equity": 2103.5201,
+    "equity": 2085.2616,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 103.5201,
-    "total_pnl_pct": 5.176
+    "total_pnl": 85.2616,
+    "total_pnl_pct": 4.2631
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "WhiteBIT Coin",
       "entry_price": 53.93,
-      "current_price": 55.03,
+      "current_price": 55.22,
       "quantity": 4.30420568,
       "cost_basis": 232.1258,
       "fee_open": 0.2321,
@@ -37,15 +37,15 @@
       "take_profit": 62.0195,
       "score": 8.138,
       "c24h_entry": 12.229482270684207,
-      "pnl_pct": 2.04,
-      "pnl_usd": 4.7346,
+      "pnl_pct": 2.392,
+      "pnl_usd": 5.5524,
       "opened_at": "2026-06-30 22:03:45"
     },
     "DEXE": {
       "direction": "LONG",
       "name": "DeXe",
       "entry_price": 48.36,
-      "current_price": 48.36,
+      "current_price": 46.04,
       "quantity": 8.22250714,
       "cost_basis": 397.6404,
       "fee_open": 0.3976,
@@ -53,8 +53,8 @@
       "take_profit": 55.614,
       "score": 15.316,
       "c24h_entry": 23.70311408664297,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
+      "pnl_pct": -4.797,
+      "pnl_usd": -19.0762,
       "opened_at": "2026-07-13 04:56:55"
     }
   },
@@ -2390,6 +2390,18 @@
     {
       "ts": "2026-07-13 04:56",
       "equity": 2103.5201
+    },
+    {
+      "ts": "2026-07-13 08:17",
+      "equity": 2085.2616
+    },
+    {
+      "ts": "2026-07-13 08:17",
+      "equity": 2085.2616
+    },
+    {
+      "ts": "2026-07-13 08:17",
+      "equity": 2085.2616
     }
   ],
   "stats": {
@@ -2397,9 +2409,9 @@
     "winning_trades": 8,
     "losing_trades": 12,
     "total_fees_paid": 13.2732,
-    "runs": 146,
+    "runs": 147,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-07-13 04:56:54",
+    "last_run": "2026-07-13 08:17:02",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
