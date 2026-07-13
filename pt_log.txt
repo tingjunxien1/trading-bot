@@ -3241,3 +3241,28 @@
 [2026-07-13 08:17:02][INFO] Saved. Run complete.
 
 [2026-07-13 08:17:02][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-07-13 11:36:50][INFO] ====================================================================
+[2026-07-13 11:36:50][INFO] RUN #148 START
+[2026-07-13 11:36:50][INFO] Market data: 50 coins from coingecko
+[2026-07-13 11:36:50][INFO] Source: coingecko | Coins: 50 | F&G: 28 (Fear)
+[2026-07-13 11:36:50][INFO] --- EXIT CHECK ---
+[2026-07-13 11:36:50][INFO]   ❌ LONG  CLOSE DEXE     @ $     44.9300  pnl=$-28.57 (-7.09%)  [STOP_LOSS (-7.09%)]
+[2026-07-13 11:36:50][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-07-13 11:36:50][INFO] --- LONG ENTRY CHECK (2/3) ---
+[2026-07-13 11:36:50][INFO]   📈 LONG  OPEN  DEXE     @ $     44.9300  val=$392.29  score=4.00
+[2026-07-13 11:36:51][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-07-13 11:36:51][INFO] --- SHORT ENTRY CHECK (2/2) ---
+[2026-07-13 11:36:51][INFO]   Max shorts (2) reached.
+[2026-07-13 11:36:51][INFO] ────────────────────────────────────────────────────────────────────
+[2026-07-13 11:36:51][INFO] EQUITY  $2,075.20  (+3.760%)  P&L $+75.20
+[2026-07-13 11:36:51][INFO] CASH    $585.35  |  Drawdown -11.63%  |  Win 38%
+[2026-07-13 11:36:51][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 26
+[2026-07-13 11:36:51][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0410  pnl=+0.48%
+[2026-07-13 11:36:51][INFO]   📈 LONG  WBT      entry=$53.9300  now=$55.1800  pnl=+2.32%
+[2026-07-13 11:36:51][INFO]   📈 LONG  DEXE     entry=$44.9300  now=$44.9300  pnl=+0.00%
+[2026-07-13 11:36:51][INFO]   📉 SHORT BEAT     entry=$5.8000  now=$5.8000  pnl=+0.00%
+[2026-07-13 11:36:51][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-07-13 11:36:51][INFO] ====================================================================
+[2026-07-13 11:36:51][INFO] Saved. Run complete.
+
+[2026-07-13 11:36:51][INFO] Notification sent → topic=chris-trading-2026 status=200
