@@ -1,12 +1,12 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 927.7848,
-    "equity": 2021.5463,
+    "cash": 545.2491,
+    "equity": 2021.5946,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 21.5463,
-    "total_pnl_pct": 1.0773
+    "total_pnl": 21.5946,
+    "total_pnl_pct": 1.0797
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "WhiteBIT Coin",
       "entry_price": 53.93,
-      "current_price": 54.72,
+      "current_price": 54.82,
       "quantity": 4.30420568,
       "cost_basis": 232.1258,
       "fee_open": 0.2321,
@@ -37,9 +37,25 @@
       "take_profit": 62.0195,
       "score": 8.138,
       "c24h_entry": 12.229482270684207,
-      "pnl_pct": 1.465,
-      "pnl_usd": 3.4003,
+      "pnl_pct": 1.65,
+      "pnl_usd": 3.8307,
       "opened_at": "2026-06-30 22:03:45"
+    },
+    "NEAR": {
+      "direction": "LONG",
+      "name": "NEAR Protocol",
+      "entry_price": 1.96,
+      "current_price": 1.96,
+      "quantity": 194.97632464,
+      "cost_basis": 382.1536,
+      "fee_open": 0.3822,
+      "stop_loss": 1.8228,
+      "take_profit": 2.254,
+      "score": 3.524,
+      "c24h_entry": 4.949353811838511,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-07-14 03:53:48"
     }
   },
   "shorts": {
@@ -652,6 +668,18 @@
       "opened_at": "2026-07-13 11:36:50",
       "reason": "STOP_LOSS (-12.62%)",
       "timestamp": "2026-07-13 16:55:19"
+    },
+    {
+      "action": "LONG_OPEN",
+      "symbol": "NEAR",
+      "price": 1.96,
+      "qty": 194.97632464,
+      "value": 382.15,
+      "fee": 0.3822,
+      "score": 3.524,
+      "c24h": 4.949353811838511,
+      "reason": "Bullish momentum score 3.52 | 24h +4.95%",
+      "timestamp": "2026-07-14 03:53:48"
     }
   ],
   "equity_curve": [
@@ -2530,16 +2558,28 @@
     {
       "ts": "2026-07-14 00:52",
       "equity": 2021.5463
+    },
+    {
+      "ts": "2026-07-14 03:53",
+      "equity": 2021.9767
+    },
+    {
+      "ts": "2026-07-14 03:53",
+      "equity": 2021.9767
+    },
+    {
+      "ts": "2026-07-14 03:53",
+      "equity": 2021.5946
     }
   ],
   "stats": {
-    "total_trades": 26,
+    "total_trades": 27,
     "winning_trades": 8,
     "losing_trades": 14,
-    "total_fees_paid": 14.3777,
-    "runs": 156,
+    "total_fees_paid": 14.7599,
+    "runs": 157,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-07-14 00:52:40",
+    "last_run": "2026-07-14 03:53:47",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
