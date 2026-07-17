@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 545.2491,
-    "equity": 2011.9916,
+    "equity": 2011.4751,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 11.9916,
-    "total_pnl_pct": 0.5996
+    "total_pnl": 11.4751,
+    "total_pnl_pct": 0.5738
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "WhiteBIT Coin",
       "entry_price": 53.93,
-      "current_price": 55.78,
+      "current_price": 55.66,
       "quantity": 4.30420568,
       "cost_basis": 232.1258,
       "fee_open": 0.2321,
@@ -37,8 +37,8 @@
       "take_profit": 62.0195,
       "score": 8.138,
       "c24h_entry": 12.229482270684207,
-      "pnl_pct": 3.43,
-      "pnl_usd": 7.9628,
+      "pnl_pct": 3.208,
+      "pnl_usd": 7.4463,
       "opened_at": "2026-06-30 22:03:45"
     },
     "NEAR": {
@@ -683,18 +683,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-06-24 10:34",
-      "equity": 1989.0929
-    },
-    {
-      "ts": "2026-06-24 10:34",
-      "equity": 1989.0929
-    },
-    {
-      "ts": "2026-06-24 18:12",
-      "equity": 1988.4395
-    },
     {
       "ts": "2026-06-24 18:12",
       "equity": 1988.4395
@@ -2682,6 +2670,18 @@
     {
       "ts": "2026-07-17 22:12",
       "equity": 2011.9916
+    },
+    {
+      "ts": "2026-07-17 23:22",
+      "equity": 2011.4751
+    },
+    {
+      "ts": "2026-07-17 23:22",
+      "equity": 2011.4751
+    },
+    {
+      "ts": "2026-07-17 23:22",
+      "equity": 2011.4751
     }
   ],
   "stats": {
@@ -2689,9 +2689,9 @@
     "winning_trades": 8,
     "losing_trades": 14,
     "total_fees_paid": 14.7599,
-    "runs": 209,
+    "runs": 210,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-07-17 22:12:59",
+    "last_run": "2026-07-17 23:22:03",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
