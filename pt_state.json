@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 383.2864,
-    "equity": 2007.6729,
+    "equity": 2008.2466,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 7.6729,
-    "total_pnl_pct": 0.3836
+    "total_pnl": 8.2466,
+    "total_pnl_pct": 0.4123
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "WhiteBIT Coin",
       "entry_price": 53.93,
-      "current_price": 54.74,
+      "current_price": 54.71,
       "quantity": 4.30420568,
       "cost_basis": 232.1258,
       "fee_open": 0.2321,
@@ -37,8 +37,8 @@
       "take_profit": 62.0195,
       "score": 8.138,
       "c24h_entry": 12.229482270684207,
-      "pnl_pct": 1.502,
-      "pnl_usd": 3.4864,
+      "pnl_pct": 1.446,
+      "pnl_usd": 3.3573,
       "opened_at": "2026-06-30 22:03:45"
     },
     "UNI": {
@@ -79,7 +79,7 @@
       "direction": "SHORT",
       "name": "MemeCore",
       "entry_price": 1.081,
-      "current_price": 1.085,
+      "current_price": 1.083,
       "quantity": 351.39343321,
       "cost_basis": 379.8563,
       "fee_open": 0.3799,
@@ -87,8 +87,8 @@
       "take_profit": 0.91885,
       "score": -3.661,
       "c24h_entry": -6.5,
-      "pnl_pct": -0.37,
-      "pnl_usd": -1.4056,
+      "pnl_pct": -0.185,
+      "pnl_usd": -0.7028,
       "opened_at": "2026-08-01 18:27:53"
     }
   },
@@ -755,18 +755,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-07-19 20:22",
-      "equity": 2019.7974
-    },
-    {
-      "ts": "2026-07-19 20:22",
-      "equity": 2019.7974
-    },
-    {
-      "ts": "2026-07-19 21:21",
-      "equity": 2019.8835
-    },
     {
       "ts": "2026-07-19 21:21",
       "equity": 2019.8835
@@ -2754,6 +2742,18 @@
     {
       "ts": "2026-08-01 22:50",
       "equity": 2007.6729
+    },
+    {
+      "ts": "2026-08-01 23:53",
+      "equity": 2008.2466
+    },
+    {
+      "ts": "2026-08-01 23:53",
+      "equity": 2008.2466
+    },
+    {
+      "ts": "2026-08-01 23:53",
+      "equity": 2008.2466
     }
   ],
   "stats": {
@@ -2761,9 +2761,9 @@
     "winning_trades": 9,
     "losing_trades": 16,
     "total_fees_paid": 16.8132,
-    "runs": 406,
+    "runs": 407,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-08-01 22:50:43",
+    "last_run": "2026-08-01 23:53:18",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
