@@ -1,12 +1,12 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 763.5226,
-    "equity": 2014.7787,
+    "cash": 383.2864,
+    "equity": 2009.4418,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 14.7787,
-    "total_pnl_pct": 0.7389
+    "total_pnl": 9.4418,
+    "total_pnl_pct": 0.4721
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "WhiteBIT Coin",
       "entry_price": 53.93,
-      "current_price": 54.96,
+      "current_price": 54.69,
       "quantity": 4.30420568,
       "cost_basis": 232.1258,
       "fee_open": 0.2321,
@@ -37,15 +37,15 @@
       "take_profit": 62.0195,
       "score": 8.138,
       "c24h_entry": 12.229482270684207,
-      "pnl_pct": 1.91,
-      "pnl_usd": 4.4333,
+      "pnl_pct": 1.409,
+      "pnl_usd": 3.2712,
       "opened_at": "2026-06-30 22:03:45"
     },
     "UNI": {
       "direction": "LONG",
       "name": "Uniswap",
       "entry_price": 3.9,
-      "current_price": 4.09,
+      "current_price": 4.05,
       "quantity": 94.87033823,
       "cost_basis": 369.9943,
       "fee_open": 0.37,
@@ -53,8 +53,8 @@
       "take_profit": 4.485,
       "score": 3.798,
       "c24h_entry": 2.7604423842722814,
-      "pnl_pct": 4.872,
-      "pnl_usd": 18.0254,
+      "pnl_pct": 3.846,
+      "pnl_usd": 14.2305,
       "opened_at": "2026-07-28 21:15:17"
     }
   },
@@ -74,6 +74,22 @@
       "pnl_pct": 0.0,
       "pnl_usd": 0.0,
       "opened_at": "2026-07-07 22:42:22"
+    },
+    "M": {
+      "direction": "SHORT",
+      "name": "MemeCore",
+      "entry_price": 1.081,
+      "current_price": 1.081,
+      "quantity": 351.39343321,
+      "cost_basis": 379.8563,
+      "fee_open": 0.3799,
+      "stop_loss": 1.15667,
+      "take_profit": 0.91885,
+      "score": -3.661,
+      "c24h_entry": -6.5,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-08-01 18:27:53"
     }
   },
   "trade_history": [
@@ -724,21 +740,21 @@
       "opened_at": "2026-06-14 15:29:27",
       "reason": "SHORT_TAKE_PROFIT (+18.10%)",
       "timestamp": "2026-08-01 11:59:59"
+    },
+    {
+      "action": "SHORT_OPEN",
+      "symbol": "M",
+      "price": 1.081,
+      "qty": 351.39343321,
+      "value": 379.86,
+      "fee": 0.3799,
+      "score": -3.661,
+      "c24h": -6.5,
+      "reason": "Bearish momentum score -3.66 | 24h -6.50%",
+      "timestamp": "2026-08-01 18:27:53"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-07-19 14:37",
-      "equity": 2021.9193
-    },
-    {
-      "ts": "2026-07-19 14:37",
-      "equity": 2021.9193
-    },
-    {
-      "ts": "2026-07-19 15:53",
-      "equity": 2022.1776
-    },
     {
       "ts": "2026-07-19 15:53",
       "equity": 2022.1776
@@ -2726,16 +2742,28 @@
     {
       "ts": "2026-08-01 17:08",
       "equity": 2014.7787
+    },
+    {
+      "ts": "2026-08-01 18:27",
+      "equity": 2009.8217
+    },
+    {
+      "ts": "2026-08-01 18:27",
+      "equity": 2009.8217
+    },
+    {
+      "ts": "2026-08-01 18:27",
+      "equity": 2009.4418
     }
   ],
   "stats": {
-    "total_trades": 29,
+    "total_trades": 30,
     "winning_trades": 9,
     "losing_trades": 16,
-    "total_fees_paid": 16.4333,
-    "runs": 401,
+    "total_fees_paid": 16.8132,
+    "runs": 402,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-08-01 17:08:32",
+    "last_run": "2026-08-01 18:27:53",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
