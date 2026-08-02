@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 727.9749,
-    "equity": 1986.9755,
+    "equity": 1986.0268,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": -13.0245,
-    "total_pnl_pct": -0.6512
+    "total_pnl": -13.9732,
+    "total_pnl_pct": -0.6987
   },
   "longs": {
     "FIGR_HELOC": {
@@ -45,7 +45,7 @@
       "direction": "LONG",
       "name": "Uniswap",
       "entry_price": 3.9,
-      "current_price": 4.21,
+      "current_price": 4.2,
       "quantity": 94.87033823,
       "cost_basis": 369.9943,
       "fee_open": 0.37,
@@ -53,8 +53,8 @@
       "take_profit": 4.485,
       "score": 3.798,
       "c24h_entry": 2.7604423842722814,
-      "pnl_pct": 7.949,
-      "pnl_usd": 29.4098,
+      "pnl_pct": 7.692,
+      "pnl_usd": 28.4611,
       "opened_at": "2026-07-28 21:15:17"
     }
   },
@@ -751,18 +751,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-07-20 13:24",
-      "equity": 2026.6622
-    },
-    {
-      "ts": "2026-07-20 13:24",
-      "equity": 2026.6622
-    },
-    {
-      "ts": "2026-07-20 15:27",
-      "equity": 2025.2829
-    },
     {
       "ts": "2026-07-20 15:27",
       "equity": 2025.2829
@@ -2750,6 +2738,18 @@
     {
       "ts": "2026-08-02 14:46",
       "equity": 1986.9755
+    },
+    {
+      "ts": "2026-08-02 15:57",
+      "equity": 1986.0268
+    },
+    {
+      "ts": "2026-08-02 15:57",
+      "equity": 1986.0268
+    },
+    {
+      "ts": "2026-08-02 15:57",
+      "equity": 1986.0268
     }
   ],
   "stats": {
@@ -2757,9 +2757,9 @@
     "winning_trades": 9,
     "losing_trades": 17,
     "total_fees_paid": 17.1931,
-    "runs": 414,
+    "runs": 415,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-08-02 14:46:25",
+    "last_run": "2026-08-02 15:57:18",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
