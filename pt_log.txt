@@ -10061,3 +10061,28 @@
 [2026-08-06 13:08:42][INFO] Saved. Run complete.
 
 [2026-08-06 13:08:42][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-08-06 23:54:19][INFO] ====================================================================
+[2026-08-06 23:54:19][INFO] RUN #461 START
+[2026-08-06 23:54:19][INFO] Market data: 50 coins from coingecko
+[2026-08-06 23:54:19][INFO] Source: coingecko | Coins: 50 | F&G: 25 (Extreme Fear)
+[2026-08-06 23:54:19][INFO] --- EXIT CHECK ---
+[2026-08-06 23:54:19][INFO]   ✅ SHORT CLOSE CC       @ $      0.0918  pnl=$+55.95 (+15.13%)  [SHORT_TAKE_PROFIT (+15.13%)]
+[2026-08-06 23:54:20][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-08-06 23:54:20][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-08-06 23:54:20][INFO]   Max longs (3) reached.
+[2026-08-06 23:54:20][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-08-06 23:54:20][INFO]   📉 SHORT OPEN  CC       @ $      0.0918  val=$383.70  score=-7.26
+[2026-08-06 23:54:20][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-08-06 23:54:20][INFO] ────────────────────────────────────────────────────────────────────
+[2026-08-06 23:54:20][INFO] EQUITY  $2,029.77  (+1.488%)  P&L $+29.77
+[2026-08-06 23:54:20][INFO] CASH    $399.10  |  Drawdown -11.63%  |  Win 37%
+[2026-08-06 23:54:20][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 32
+[2026-08-06 23:54:20][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0180  pnl=-1.74%
+[2026-08-06 23:54:20][INFO]   📈 LONG  WBT      entry=$53.9300  now=$55.6200  pnl=+3.13%
+[2026-08-06 23:54:20][INFO]   📈 LONG  UNI      entry=$3.9000  now=$4.0100  pnl=+2.82%
+[2026-08-06 23:54:20][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-08-06 23:54:20][INFO]   📉 SHORT CC       entry=$0.0918  now=$0.0918  pnl=+0.00%
+[2026-08-06 23:54:20][INFO] ====================================================================
+[2026-08-06 23:54:20][INFO] Saved. Run complete.
+
+[2026-08-06 23:54:20][INFO] Notification sent → topic=chris-trading-2026 status=200
