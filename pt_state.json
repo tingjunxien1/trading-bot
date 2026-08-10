@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 367.0058,
-    "equity": 1980.0673,
+    "equity": 1980.8039,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": -19.9327,
-    "total_pnl_pct": -0.9966
+    "total_pnl": -19.1961,
+    "total_pnl_pct": -0.9598
   },
   "longs": {
     "FIGR_HELOC": {
@@ -45,7 +45,7 @@
       "direction": "LONG",
       "name": "Uniswap",
       "entry_price": 3.9,
-      "current_price": 3.92,
+      "current_price": 3.9324,
       "quantity": 94.87033823,
       "cost_basis": 369.9943,
       "fee_open": 0.37,
@@ -53,8 +53,8 @@
       "take_profit": 4.485,
       "score": 3.798,
       "c24h_entry": 2.7604423842722814,
-      "pnl_pct": 0.513,
-      "pnl_usd": 1.8974,
+      "pnl_pct": 0.831,
+      "pnl_usd": 3.0738,
       "opened_at": "2026-07-28 21:15:17"
     }
   },
@@ -827,18 +827,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-07-31 10:34",
-      "equity": 2009.3072
-    },
-    {
-      "ts": "2026-07-31 10:34",
-      "equity": 2009.3072
-    },
-    {
-      "ts": "2026-07-31 12:52",
-      "equity": 2005.7293
-    },
     {
       "ts": "2026-07-31 12:52",
       "equity": 2005.7293
@@ -2826,6 +2814,18 @@
     {
       "ts": "2026-08-10 16:51",
       "equity": 1980.0673
+    },
+    {
+      "ts": "2026-08-10 17:48",
+      "equity": 1980.8039
+    },
+    {
+      "ts": "2026-08-10 17:48",
+      "equity": 1980.8039
+    },
+    {
+      "ts": "2026-08-10 17:48",
+      "equity": 1980.8039
     }
   ],
   "stats": {
@@ -2833,13 +2833,13 @@
     "winning_trades": 10,
     "losing_trades": 18,
     "total_fees_paid": 19.0773,
-    "runs": 550,
+    "runs": 551,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-08-10 16:51:38",
+    "last_run": "2026-08-10 17:47:53",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
-    "data_source": "coingecko"
+    "data_source": "kraken"
   },
   "config": {
     "max_longs": 3,
