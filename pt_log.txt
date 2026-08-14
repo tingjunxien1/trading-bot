@@ -13595,3 +13595,26 @@
 [2026-08-14 11:41:09][INFO] Saved. Run complete.
 
 [2026-08-14 11:41:09][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-08-14 12:56:07][INFO] ====================================================================
+[2026-08-14 12:56:07][INFO] RUN #624 START
+[2026-08-14 12:56:08][INFO] Market data: 50 coins from coingecko
+[2026-08-14 12:56:08][INFO] Source: coingecko | Coins: 50 | F&G: 29 (Fear)
+[2026-08-14 12:56:08][INFO] --- EXIT CHECK ---
+[2026-08-14 12:56:08][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-08-14 12:56:08][INFO]   Max longs (3) reached.
+[2026-08-14 12:56:08][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-08-14 12:56:08][INFO]   📉 SHORT OPEN  UNI      @ $      3.2400  val=$360.28  score=-5.64
+[2026-08-14 12:56:08][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-08-14 12:56:08][INFO] ────────────────────────────────────────────────────────────────────
+[2026-08-14 12:56:08][INFO] EQUITY  $1,905.90  (-4.705%)  P&L $-94.10
+[2026-08-14 12:56:08][INFO] CASH    $317.30  |  Drawdown -11.63%  |  Win 33%
+[2026-08-14 12:56:08][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 35
+[2026-08-14 12:56:08][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0060  pnl=-2.90%
+[2026-08-14 12:56:08][INFO]   📈 LONG  WBT      entry=$53.9300  now=$54.4000  pnl=+0.87%
+[2026-08-14 12:56:08][INFO]   📈 LONG  LINK     entry=$8.7600  now=$8.8400  pnl=+0.91%
+[2026-08-14 12:56:08][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-08-14 12:56:08][INFO]   📉 SHORT UNI      entry=$3.2400  now=$3.2400  pnl=+0.00%
+[2026-08-14 12:56:08][INFO] ====================================================================
+[2026-08-14 12:56:08][INFO] Saved. Run complete.
+
+[2026-08-14 12:56:08][INFO] Notification sent → topic=chris-trading-2026 status=200
