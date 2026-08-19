@@ -17749,3 +17749,27 @@
 [2026-08-19 19:02:47][INFO] Saved. Run complete.
 
 [2026-08-19 19:02:48][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-08-19 19:48:04][INFO] ====================================================================
+[2026-08-19 19:48:04][INFO] RUN #813 START
+[2026-08-19 19:48:04][INFO] Market data: 50 coins from coingecko
+[2026-08-19 19:48:04][INFO] Source: coingecko | Coins: 50 | F&G: 46 (Fear)
+[2026-08-19 19:48:04][INFO] --- EXIT CHECK ---
+[2026-08-19 19:48:04][INFO]   ✅ LONG  CLOSE LINK     @ $     10.1200  pnl=$+56.47 (+15.53%)  [TAKE_PROFIT (+15.53%)]
+[2026-08-19 19:48:04][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-08-19 19:48:04][INFO] --- LONG ENTRY CHECK (2/3) ---
+[2026-08-19 19:48:04][INFO]   📈 LONG  OPEN  ETH      @ $  2,098.4400  val=$350.62  score=7.35
+[2026-08-19 19:48:04][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-08-19 19:48:04][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-08-19 19:48:04][INFO]   SKIP shorts — sentiment too bullish (F&G 46 > 45)
+[2026-08-19 19:48:04][INFO] ────────────────────────────────────────────────────────────────────
+[2026-08-19 19:48:04][INFO] EQUITY  $1,947.56  (-2.622%)  P&L $-52.44
+[2026-08-19 19:48:04][INFO] CASH    $721.35  |  Drawdown -11.63%  |  Win 34%
+[2026-08-19 19:48:04][INFO] LONGS: 3  SHORTS: 1  TOTAL TRADES: 36
+[2026-08-19 19:48:04][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0060  pnl=-2.90%
+[2026-08-19 19:48:04][INFO]   📈 LONG  WBT      entry=$53.9300  now=$58.3600  pnl=+8.21%
+[2026-08-19 19:48:04][INFO]   📈 LONG  ETH      entry=$2,098.4400  now=$2,098.4400  pnl=+0.00%
+[2026-08-19 19:48:04][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-08-19 19:48:04][INFO] ====================================================================
+[2026-08-19 19:48:04][INFO] Saved. Run complete.
+
+[2026-08-19 19:48:04][INFO] Notification sent → topic=chris-trading-2026 status=200
