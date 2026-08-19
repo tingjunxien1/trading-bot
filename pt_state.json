@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 721.3463,
-    "equity": 1985.0845,
+    "equity": 1986.6365,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": -14.9155,
-    "total_pnl_pct": -0.7458
+    "total_pnl": -13.3635,
+    "total_pnl_pct": -0.6682
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "WhiteBIT Coin",
       "entry_price": 53.93,
-      "current_price": 59.55,
+      "current_price": 59.6,
       "quantity": 4.30420568,
       "cost_basis": 232.1258,
       "fee_open": 0.2321,
@@ -37,15 +37,15 @@
       "take_profit": 62.0195,
       "score": 8.138,
       "c24h_entry": 12.229482270684207,
-      "pnl_pct": 10.421,
-      "pnl_usd": 24.1896,
+      "pnl_pct": 10.514,
+      "pnl_usd": 24.4048,
       "opened_at": "2026-06-30 22:03:45"
     },
     "ETH": {
       "direction": "LONG",
       "name": "Ethereum",
       "entry_price": 2098.44,
-      "current_price": 2247.29,
+      "current_price": 2255.29,
       "quantity": 0.16708767,
       "cost_basis": 350.6234,
       "fee_open": 0.3506,
@@ -53,8 +53,8 @@
       "take_profit": 2413.206,
       "score": 7.353,
       "c24h_entry": 9.3,
-      "pnl_pct": 7.093,
-      "pnl_usd": 24.871,
+      "pnl_pct": 7.475,
+      "pnl_usd": 26.2077,
       "opened_at": "2026-08-19 19:48:04"
     }
   },
@@ -895,18 +895,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-15 10:46",
-      "equity": 1932.59
-    },
-    {
-      "ts": "2026-08-15 10:46",
-      "equity": 1932.59
-    },
-    {
-      "ts": "2026-08-15 11:15",
-      "equity": 1933.0513
-    },
     {
       "ts": "2026-08-15 11:15",
       "equity": 1933.0513
@@ -2894,6 +2882,18 @@
     {
       "ts": "2026-08-19 23:18",
       "equity": 1985.0845
+    },
+    {
+      "ts": "2026-08-19 23:45",
+      "equity": 1986.6365
+    },
+    {
+      "ts": "2026-08-19 23:45",
+      "equity": 1986.6365
+    },
+    {
+      "ts": "2026-08-19 23:45",
+      "equity": 1986.6365
     }
   ],
   "stats": {
@@ -2901,9 +2901,9 @@
     "winning_trades": 11,
     "losing_trades": 21,
     "total_fees_paid": 21.6486,
-    "runs": 820,
+    "runs": 821,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-08-19 23:18:26",
+    "last_run": "2026-08-19 23:45:25",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
