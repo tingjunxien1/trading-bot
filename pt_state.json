@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 845.6654,
-    "equity": 2031.9104,
+    "equity": 2028.5623,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 31.9104,
-    "total_pnl_pct": 1.5955
+    "total_pnl": 28.5623,
+    "total_pnl_pct": 1.4281
   },
   "longs": {
     "FIGR_HELOC": {
@@ -45,7 +45,7 @@
       "direction": "LONG",
       "name": "Bitcoin Cash",
       "entry_price": 296.69,
-      "current_price": 290.38,
+      "current_price": 286.77,
       "quantity": 0.92745264,
       "cost_basis": 275.1659,
       "fee_open": 0.2752,
@@ -53,8 +53,8 @@
       "take_profit": 341.1935,
       "score": 20.866,
       "c24h_entry": 33.7,
-      "pnl_pct": -2.127,
-      "pnl_usd": -5.8522,
+      "pnl_pct": -3.344,
+      "pnl_usd": -9.2003,
       "opened_at": "2026-08-21 17:54:34"
     }
   },
@@ -943,18 +943,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-16 20:16",
-      "equity": 1924.537
-    },
-    {
-      "ts": "2026-08-16 20:16",
-      "equity": 1924.537
-    },
-    {
-      "ts": "2026-08-16 20:45",
-      "equity": 1925.0585
-    },
     {
       "ts": "2026-08-16 20:45",
       "equity": 1925.0585
@@ -2942,6 +2930,18 @@
     {
       "ts": "2026-08-21 19:46",
       "equity": 2031.9104
+    },
+    {
+      "ts": "2026-08-21 20:20",
+      "equity": 2028.5623
+    },
+    {
+      "ts": "2026-08-21 20:20",
+      "equity": 2028.5623
+    },
+    {
+      "ts": "2026-08-21 20:20",
+      "equity": 2028.5623
     }
   ],
   "stats": {
@@ -2949,9 +2949,9 @@
     "winning_trades": 13,
     "losing_trades": 21,
     "total_fees_paid": 22.8675,
-    "runs": 878,
+    "runs": 879,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-08-21 19:46:33",
+    "last_run": "2026-08-21 20:20:02",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
