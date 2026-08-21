@@ -1,12 +1,12 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 716.4777,
-    "equity": 2038.1162,
+    "cash": 845.6654,
+    "equity": 2037.9909,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 38.1162,
-    "total_pnl_pct": 1.9058
+    "total_pnl": 37.9909,
+    "total_pnl_pct": 1.8995
   },
   "longs": {
     "FIGR_HELOC": {
@@ -25,27 +25,11 @@
       "pnl_usd": -2.2831,
       "opened_at": "2026-06-19 22:38:57"
     },
-    "ETH": {
-      "direction": "LONG",
-      "name": "Ethereum",
-      "entry_price": 2098.44,
-      "current_price": 2408.26,
-      "quantity": 0.16708767,
-      "cost_basis": 350.6234,
-      "fee_open": 0.3506,
-      "stop_loss": 1951.5492,
-      "take_profit": 2413.206,
-      "score": 7.353,
-      "c24h_entry": 9.3,
-      "pnl_pct": 14.764,
-      "pnl_usd": 51.7671,
-      "opened_at": "2026-08-19 19:48:04"
-    },
     "XRP": {
       "direction": "LONG",
       "name": "XRP",
       "entry_price": 1.3,
-      "current_price": 1.39,
+      "current_price": 1.38,
       "quantity": 208.84003615,
       "cost_basis": 271.492,
       "fee_open": 0.2715,
@@ -53,9 +37,25 @@
       "take_profit": 1.495,
       "score": 11.75,
       "c24h_entry": 16.5,
-      "pnl_pct": 6.923,
-      "pnl_usd": 18.7956,
+      "pnl_pct": 6.154,
+      "pnl_usd": 16.7072,
       "opened_at": "2026-08-21 02:41:55"
+    },
+    "BCH": {
+      "direction": "LONG",
+      "name": "Bitcoin Cash",
+      "entry_price": 296.69,
+      "current_price": 296.69,
+      "quantity": 0.92745264,
+      "cost_basis": 275.1659,
+      "fee_open": 0.2752,
+      "stop_loss": 275.9217,
+      "take_profit": 341.1935,
+      "score": 20.866,
+      "c24h_entry": 33.7,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-08-21 17:54:34"
     }
   },
   "shorts": {
@@ -916,21 +916,33 @@
       "c24h": 16.5,
       "reason": "Bullish momentum score 11.75 | 24h +16.50%",
       "timestamp": "2026-08-21 02:41:55"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "ETH",
+      "price": 2424.08,
+      "value": 405.0339,
+      "pnl_usd": 54.0054,
+      "pnl_pct": 15.518,
+      "fee": 0.405,
+      "opened_at": "2026-08-19 19:48:04",
+      "reason": "TAKE_PROFIT (+15.52%)",
+      "timestamp": "2026-08-21 17:54:34"
+    },
+    {
+      "action": "LONG_OPEN",
+      "symbol": "BCH",
+      "price": 296.69,
+      "qty": 0.92745264,
+      "value": 275.17,
+      "fee": 0.2752,
+      "score": 20.866,
+      "c24h": 33.7,
+      "reason": "Bullish momentum score 20.87 | 24h +33.70%",
+      "timestamp": "2026-08-21 17:54:34"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-16 18:21",
-      "equity": 1923.1392
-    },
-    {
-      "ts": "2026-08-16 18:21",
-      "equity": 1923.1392
-    },
-    {
-      "ts": "2026-08-16 18:54",
-      "equity": 1923.4146
-    },
     {
       "ts": "2026-08-16 18:54",
       "equity": 1923.4146
@@ -2918,16 +2930,28 @@
     {
       "ts": "2026-08-21 17:23",
       "equity": 2038.1162
+    },
+    {
+      "ts": "2026-08-21 17:54",
+      "equity": 2038.6712
+    },
+    {
+      "ts": "2026-08-21 17:54",
+      "equity": 2038.2661
+    },
+    {
+      "ts": "2026-08-21 17:54",
+      "equity": 2037.9909
     }
   ],
   "stats": {
-    "total_trades": 37,
-    "winning_trades": 12,
+    "total_trades": 38,
+    "winning_trades": 13,
     "losing_trades": 21,
-    "total_fees_paid": 22.1873,
-    "runs": 874,
+    "total_fees_paid": 22.8675,
+    "runs": 875,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-08-21 17:23:45",
+    "last_run": "2026-08-21 17:54:33",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
