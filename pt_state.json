@@ -1,12 +1,12 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 721.3463,
-    "equity": 2005.395,
+    "cash": 716.4777,
+    "equity": 2010.7808,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 5.395,
-    "total_pnl_pct": 0.2698
+    "total_pnl": 10.7808,
+    "total_pnl_pct": 0.539
   },
   "longs": {
     "FIGR_HELOC": {
@@ -25,27 +25,11 @@
       "pnl_usd": -2.2831,
       "opened_at": "2026-06-19 22:38:57"
     },
-    "WBT": {
-      "direction": "LONG",
-      "name": "WhiteBIT Coin",
-      "entry_price": 53.93,
-      "current_price": 61.39,
-      "quantity": 4.30420568,
-      "cost_basis": 232.1258,
-      "fee_open": 0.2321,
-      "stop_loss": 50.1549,
-      "take_profit": 62.0195,
-      "score": 8.138,
-      "c24h_entry": 12.229482270684207,
-      "pnl_pct": 13.833,
-      "pnl_usd": 32.1094,
-      "opened_at": "2026-06-30 22:03:45"
-    },
     "ETH": {
       "direction": "LONG",
       "name": "Ethereum",
       "entry_price": 2098.44,
-      "current_price": 2339.21,
+      "current_price": 2357.15,
       "quantity": 0.16708767,
       "cost_basis": 350.6234,
       "fee_open": 0.3506,
@@ -53,9 +37,25 @@
       "take_profit": 2413.206,
       "score": 7.353,
       "c24h_entry": 9.3,
-      "pnl_pct": 11.474,
-      "pnl_usd": 40.2297,
+      "pnl_pct": 12.329,
+      "pnl_usd": 43.2272,
       "opened_at": "2026-08-19 19:48:04"
+    },
+    "XRP": {
+      "direction": "LONG",
+      "name": "XRP",
+      "entry_price": 1.3,
+      "current_price": 1.3,
+      "quantity": 208.84003615,
+      "cost_basis": 271.492,
+      "fee_open": 0.2715,
+      "stop_loss": 1.209,
+      "take_profit": 1.495,
+      "score": 11.75,
+      "c24h_entry": 16.5,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-08-21 02:41:55"
     }
   },
   "shorts": {
@@ -892,21 +892,33 @@
       "c24h": 9.3,
       "reason": "Bullish momentum score 7.35 | 24h +9.30%",
       "timestamp": "2026-08-19 19:48:04"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "WBT",
+      "price": 62.07,
+      "value": 267.162,
+      "pnl_usd": 34.7691,
+      "pnl_pct": 15.094,
+      "fee": 0.2672,
+      "opened_at": "2026-06-30 22:03:45",
+      "reason": "TAKE_PROFIT (+15.09%)",
+      "timestamp": "2026-08-21 02:41:54"
+    },
+    {
+      "action": "LONG_OPEN",
+      "symbol": "XRP",
+      "price": 1.3,
+      "qty": 208.84003615,
+      "value": 271.49,
+      "fee": 0.2715,
+      "score": 11.75,
+      "c24h": 16.5,
+      "reason": "Bullish momentum score 11.75 | 24h +16.50%",
+      "timestamp": "2026-08-21 02:41:55"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-16 07:53",
-      "equity": 1924.8191
-    },
-    {
-      "ts": "2026-08-16 07:53",
-      "equity": 1924.8191
-    },
-    {
-      "ts": "2026-08-16 08:23",
-      "equity": 1924.2683
-    },
     {
       "ts": "2026-08-16 08:23",
       "equity": 1924.2683
@@ -2894,16 +2906,28 @@
     {
       "ts": "2026-08-21 01:02",
       "equity": 2005.395
+    },
+    {
+      "ts": "2026-08-21 02:41",
+      "equity": 2011.3194
+    },
+    {
+      "ts": "2026-08-21 02:41",
+      "equity": 2011.0522
+    },
+    {
+      "ts": "2026-08-21 02:41",
+      "equity": 2010.7808
     }
   ],
   "stats": {
-    "total_trades": 36,
-    "winning_trades": 11,
+    "total_trades": 37,
+    "winning_trades": 12,
     "losing_trades": 21,
-    "total_fees_paid": 21.6486,
-    "runs": 854,
+    "total_fees_paid": 22.1873,
+    "runs": 855,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-08-21 01:02:07",
+    "last_run": "2026-08-21 02:41:54",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
