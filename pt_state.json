@@ -1,12 +1,12 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 894.364,
-    "equity": 2065.2293,
+    "cash": 875.0549,
+    "equity": 2061.4734,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 65.2293,
-    "total_pnl_pct": 3.2615
+    "total_pnl": 61.4734,
+    "total_pnl_pct": 3.0737
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "Zcash",
       "entry_price": 812.29,
-      "current_price": 831.84,
+      "current_price": 831.7,
       "quantity": 0.3427411,
       "cost_basis": 278.4052,
       "fee_open": 0.2784,
@@ -37,25 +37,25 @@
       "take_profit": 934.1335,
       "score": 23.426,
       "c24h_entry": 37.9,
-      "pnl_pct": 2.407,
-      "pnl_usd": 6.7006,
+      "pnl_pct": 2.39,
+      "pnl_usd": 6.6526,
       "opened_at": "2026-08-22 02:16:59"
     },
-    "PUMP": {
+    "MORPHO": {
       "direction": "LONG",
-      "name": "Pump.fun",
-      "entry_price": 0.00537174,
-      "current_price": 0.00501852,
-      "quantity": 52353.1414402,
-      "cost_basis": 281.2275,
-      "fee_open": 0.2812,
-      "stop_loss": 0.00499572,
-      "take_profit": 0.0061775,
-      "score": 10.041,
-      "c24h_entry": 14.7,
-      "pnl_pct": -6.576,
-      "pnl_usd": -18.4922,
-      "opened_at": "2026-08-23 13:28:17"
+      "name": "Morpho",
+      "entry_price": 2.76,
+      "current_price": 2.76,
+      "quantity": 100.84655054,
+      "cost_basis": 278.3365,
+      "fee_open": 0.2783,
+      "stop_loss": 2.5668,
+      "take_profit": 3.174,
+      "score": 13.896,
+      "c24h_entry": 22.10698,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-08-24 05:33:55"
     }
   },
   "shorts": {
@@ -1012,21 +1012,33 @@
       "c24h": 14.7,
       "reason": "Bullish momentum score 10.04 | 24h +14.70%",
       "timestamp": "2026-08-23 13:28:17"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "PUMP",
+      "price": 0.00495797,
+      "value": 259.5653,
+      "pnl_usd": -21.9218,
+      "pnl_pct": -7.703,
+      "fee": 0.2596,
+      "opened_at": "2026-08-23 13:28:17",
+      "reason": "STOP_LOSS (-7.70%)",
+      "timestamp": "2026-08-24 05:33:55"
+    },
+    {
+      "action": "LONG_OPEN",
+      "symbol": "MORPHO",
+      "price": 2.76,
+      "qty": 100.84655054,
+      "value": 278.34,
+      "fee": 0.2783,
+      "score": 13.896,
+      "c24h": 22.10698,
+      "reason": "Bullish momentum score 13.90 | 24h +22.11%",
+      "timestamp": "2026-08-24 05:33:55"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-19 13:40",
-      "equity": 1931.8446
-    },
-    {
-      "ts": "2026-08-19 13:40",
-      "equity": 1931.8446
-    },
-    {
-      "ts": "2026-08-19 14:27",
-      "equity": 1932.1822
-    },
     {
       "ts": "2026-08-19 14:27",
       "equity": 1932.1822
@@ -3014,16 +3026,28 @@
     {
       "ts": "2026-08-24 04:39",
       "equity": 2065.2293
+    },
+    {
+      "ts": "2026-08-24 05:33",
+      "equity": 2062.0113
+    },
+    {
+      "ts": "2026-08-24 05:33",
+      "equity": 2061.7517
+    },
+    {
+      "ts": "2026-08-24 05:33",
+      "equity": 2061.4734
     }
   ],
   "stats": {
-    "total_trades": 41,
+    "total_trades": 42,
     "winning_trades": 15,
-    "losing_trades": 22,
-    "total_fees_paid": 24.586,
-    "runs": 969,
+    "losing_trades": 23,
+    "total_fees_paid": 25.1239,
+    "runs": 970,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-08-24 04:39:41",
+    "last_run": "2026-08-24 05:33:54",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
