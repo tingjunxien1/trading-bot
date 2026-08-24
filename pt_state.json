@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 875.0549,
-    "equity": 2063.4168,
+    "equity": 2064.3712,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 63.4168,
-    "total_pnl_pct": 3.1708
+    "total_pnl": 64.3712,
+    "total_pnl_pct": 3.2186
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "Zcash",
       "entry_price": 812.29,
-      "current_price": 837.37,
+      "current_price": 834.27,
       "quantity": 0.3427411,
       "cost_basis": 278.4052,
       "fee_open": 0.2784,
@@ -37,15 +37,15 @@
       "take_profit": 934.1335,
       "score": 23.426,
       "c24h_entry": 37.9,
-      "pnl_pct": 3.088,
-      "pnl_usd": 8.5959,
+      "pnl_pct": 2.706,
+      "pnl_usd": 7.5335,
       "opened_at": "2026-08-22 02:16:59"
     },
     "MORPHO": {
       "direction": "LONG",
       "name": "Morpho",
       "entry_price": 2.76,
-      "current_price": 2.76,
+      "current_price": 2.78,
       "quantity": 100.84655054,
       "cost_basis": 278.3365,
       "fee_open": 0.2783,
@@ -53,8 +53,8 @@
       "take_profit": 3.174,
       "score": 13.896,
       "c24h_entry": 22.10698,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
+      "pnl_pct": 0.725,
+      "pnl_usd": 2.0169,
       "opened_at": "2026-08-24 05:33:55"
     }
   },
@@ -1039,18 +1039,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-19 15:56",
-      "equity": 1937.6764
-    },
-    {
-      "ts": "2026-08-19 15:56",
-      "equity": 1937.6764
-    },
-    {
-      "ts": "2026-08-19 16:28",
-      "equity": 1944.2324
-    },
     {
       "ts": "2026-08-19 16:28",
       "equity": 1944.2324
@@ -3038,6 +3026,18 @@
     {
       "ts": "2026-08-24 07:54",
       "equity": 2063.4168
+    },
+    {
+      "ts": "2026-08-24 08:41",
+      "equity": 2064.3712
+    },
+    {
+      "ts": "2026-08-24 08:41",
+      "equity": 2064.3712
+    },
+    {
+      "ts": "2026-08-24 08:41",
+      "equity": 2064.3712
     }
   ],
   "stats": {
@@ -3045,9 +3045,9 @@
     "winning_trades": 15,
     "losing_trades": 23,
     "total_fees_paid": 25.1239,
-    "runs": 972,
+    "runs": 973,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-08-24 07:54:03",
+    "last_run": "2026-08-24 08:41:45",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
