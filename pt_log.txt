@@ -22622,3 +22622,24 @@
 [2026-08-26 20:30:07][INFO] Saved. Run complete.
 
 [2026-08-26 20:30:17][WARN] Notification FAILED: HTTPSConnectionPool(host='ntfy.sh', port=443): Max retries exceeded with url: /chris-trading-2026 (Caused by NewConnectionError("HTTPSConnection(host='ntfy.sh', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+[2026-08-27 00:00:33][INFO] ====================================================================
+[2026-08-27 00:00:33][INFO] RUN #1044 START
+[2026-08-27 00:00:33][INFO] Market data: 50 coins from coingecko
+[2026-08-27 00:00:33][INFO] Source: coingecko | Coins: 50 | F&G: 71 (Greed)
+[2026-08-27 00:00:33][INFO] --- EXIT CHECK ---
+[2026-08-27 00:00:33][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-08-27 00:00:33][INFO]   Max longs (3) reached.
+[2026-08-27 00:00:33][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-08-27 00:00:33][INFO]   SKIP shorts — sentiment too bullish (F&G 71 > 45)
+[2026-08-27 00:00:33][INFO] ────────────────────────────────────────────────────────────────────
+[2026-08-27 00:00:33][INFO] EQUITY  $2,058.01  (+2.900%)  P&L $+58.01
+[2026-08-27 00:00:33][INFO] CASH    $875.05  |  Drawdown -11.63%  |  Win 39%
+[2026-08-27 00:00:33][INFO] LONGS: 3  SHORTS: 1  TOTAL TRADES: 42
+[2026-08-27 00:00:33][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0070  pnl=-2.80%
+[2026-08-27 00:00:33][INFO]   📈 LONG  ZEC      entry=$812.2900  now=$816.9200  pnl=+0.57%
+[2026-08-27 00:00:33][INFO]   📈 LONG  MORPHO   entry=$2.7600  now=$2.8100  pnl=+1.81%
+[2026-08-27 00:00:33][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-08-27 00:00:33][INFO] ====================================================================
+[2026-08-27 00:00:33][INFO] Saved. Run complete.
+
+[2026-08-27 00:00:34][INFO] Notification sent → topic=chris-trading-2026 status=200
