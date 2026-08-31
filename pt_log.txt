@@ -23042,3 +23042,24 @@
 [2026-08-31 14:47:01][INFO] Saved. Run complete.
 
 [2026-08-31 14:47:01][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-08-31 20:36:30][INFO] ====================================================================
+[2026-08-31 20:36:30][INFO] RUN #1064 START
+[2026-08-31 20:36:30][INFO] Market data: 50 coins from coingecko
+[2026-08-31 20:36:30][INFO] Source: coingecko | Coins: 50 | F&G: 62 (Greed)
+[2026-08-31 20:36:30][INFO] --- EXIT CHECK ---
+[2026-08-31 20:36:30][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-08-31 20:36:30][INFO]   Max longs (3) reached.
+[2026-08-31 20:36:30][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-08-31 20:36:30][INFO]   SKIP shorts — sentiment too bullish (F&G 62 > 45)
+[2026-08-31 20:36:30][INFO] ────────────────────────────────────────────────────────────────────
+[2026-08-31 20:36:30][INFO] EQUITY  $2,071.02  (+3.551%)  P&L $+71.02
+[2026-08-31 20:36:30][INFO] CASH    $875.05  |  Drawdown -11.63%  |  Win 39%
+[2026-08-31 20:36:30][INFO] LONGS: 3  SHORTS: 1  TOTAL TRADES: 42
+[2026-08-31 20:36:30][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0550  pnl=+1.83%
+[2026-08-31 20:36:30][INFO]   📈 LONG  ZEC      entry=$812.2900  now=$852.3300  pnl=+4.93%
+[2026-08-31 20:36:30][INFO]   📈 LONG  MORPHO   entry=$2.7600  now=$2.6600  pnl=-3.62%
+[2026-08-31 20:36:30][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-08-31 20:36:30][INFO] ====================================================================
+[2026-08-31 20:36:30][INFO] Saved. Run complete.
+
+[2026-08-31 20:36:31][INFO] Notification sent → topic=chris-trading-2026 status=200
