@@ -1,12 +1,12 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 875.0549,
-    "equity": 2070.2998,
+    "cash": 856.7321,
+    "equity": 2043.8418,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 70.2998,
-    "total_pnl_pct": 3.515
+    "total_pnl": 43.8418,
+    "total_pnl_pct": 2.1921
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "Zcash",
       "entry_price": 812.29,
-      "current_price": 856.12,
+      "current_price": 839.33,
       "quantity": 0.3427411,
       "cost_basis": 278.4052,
       "fee_open": 0.2784,
@@ -37,25 +37,25 @@
       "take_profit": 934.1335,
       "score": 23.426,
       "c24h_entry": 37.9,
-      "pnl_pct": 5.396,
-      "pnl_usd": 15.0223,
+      "pnl_pct": 3.329,
+      "pnl_usd": 9.2677,
       "opened_at": "2026-08-22 02:16:59"
     },
-    "MORPHO": {
+    "UNI": {
       "direction": "LONG",
-      "name": "Morpho",
-      "entry_price": 2.76,
-      "current_price": 2.66,
-      "quantity": 100.84655054,
-      "cost_basis": 278.3365,
-      "fee_open": 0.2783,
-      "stop_loss": 2.5668,
-      "take_profit": 3.174,
-      "score": 13.896,
-      "c24h_entry": 22.10698,
-      "pnl_pct": -3.623,
-      "pnl_usd": -10.0847,
-      "opened_at": "2026-08-24 05:33:55"
+      "name": "Uniswap",
+      "entry_price": 5.65,
+      "current_price": 5.65,
+      "quantity": 48.84175035,
+      "cost_basis": 275.9559,
+      "fee_open": 0.276,
+      "stop_loss": 5.2545,
+      "take_profit": 6.4975,
+      "score": 8.083,
+      "c24h_entry": 11.02603,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-09-01 10:19:25"
     }
   },
   "shorts": {
@@ -1036,21 +1036,33 @@
       "c24h": 22.10698,
       "reason": "Bullish momentum score 13.90 | 24h +22.11%",
       "timestamp": "2026-08-24 05:33:55"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "MORPHO",
+      "price": 2.56,
+      "value": 258.1672,
+      "pnl_usd": -20.4275,
+      "pnl_pct": -7.246,
+      "fee": 0.2582,
+      "opened_at": "2026-08-24 05:33:55",
+      "reason": "STOP_LOSS (-7.25%)",
+      "timestamp": "2026-09-01 10:19:25"
+    },
+    {
+      "action": "LONG_OPEN",
+      "symbol": "UNI",
+      "price": 5.65,
+      "qty": 48.84175035,
+      "value": 275.96,
+      "fee": 0.276,
+      "score": 8.083,
+      "c24h": 11.02603,
+      "reason": "Bullish momentum score 8.08 | 24h +11.03%",
+      "timestamp": "2026-09-01 10:19:25"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-22 10:17",
-      "equity": 2032.5973
-    },
-    {
-      "ts": "2026-08-22 10:17",
-      "equity": 2032.323
-    },
-    {
-      "ts": "2026-08-22 10:48",
-      "equity": 2037.8762
-    },
     {
       "ts": "2026-08-22 10:48",
       "equity": 2037.8762
@@ -3038,16 +3050,28 @@
     {
       "ts": "2026-09-01 05:25",
       "equity": 2070.2998
+    },
+    {
+      "ts": "2026-09-01 10:19",
+      "equity": 2044.3758
+    },
+    {
+      "ts": "2026-09-01 10:19",
+      "equity": 2044.1177
+    },
+    {
+      "ts": "2026-09-01 10:19",
+      "equity": 2043.8418
     }
   ],
   "stats": {
-    "total_trades": 42,
+    "total_trades": 43,
     "winning_trades": 15,
-    "losing_trades": 23,
-    "total_fees_paid": 25.1239,
-    "runs": 1066,
+    "losing_trades": 24,
+    "total_fees_paid": 25.6581,
+    "runs": 1067,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-01 05:25:54",
+    "last_run": "2026-09-01 10:19:25",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
