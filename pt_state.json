@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 875.0549,
-    "equity": 2070.4574,
+    "equity": 2070.2998,
     "peak_equity": 2142.2837,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 70.4574,
-    "total_pnl_pct": 3.5229
+    "total_pnl": 70.2998,
+    "total_pnl_pct": 3.515
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "Zcash",
       "entry_price": 812.29,
-      "current_price": 856.58,
+      "current_price": 856.12,
       "quantity": 0.3427411,
       "cost_basis": 278.4052,
       "fee_open": 0.2784,
@@ -37,8 +37,8 @@
       "take_profit": 934.1335,
       "score": 23.426,
       "c24h_entry": 37.9,
-      "pnl_pct": 5.452,
-      "pnl_usd": 15.18,
+      "pnl_pct": 5.396,
+      "pnl_usd": 15.0223,
       "opened_at": "2026-08-22 02:16:59"
     },
     "MORPHO": {
@@ -1039,18 +1039,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-22 09:50",
-      "equity": 2036.7122
-    },
-    {
-      "ts": "2026-08-22 09:50",
-      "equity": 2036.7122
-    },
-    {
-      "ts": "2026-08-22 10:17",
-      "equity": 2032.8504
-    },
     {
       "ts": "2026-08-22 10:17",
       "equity": 2032.5973
@@ -3038,6 +3026,18 @@
     {
       "ts": "2026-09-01 00:20",
       "equity": 2070.4574
+    },
+    {
+      "ts": "2026-09-01 05:25",
+      "equity": 2070.2998
+    },
+    {
+      "ts": "2026-09-01 05:25",
+      "equity": 2070.2998
+    },
+    {
+      "ts": "2026-09-01 05:25",
+      "equity": 2070.2998
     }
   ],
   "stats": {
@@ -3045,9 +3045,9 @@
     "winning_trades": 15,
     "losing_trades": 23,
     "total_fees_paid": 25.1239,
-    "runs": 1065,
+    "runs": 1066,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-01 00:20:08",
+    "last_run": "2026-09-01 05:25:54",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
