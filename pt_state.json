@@ -1,19 +1,19 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 895.8367,
-    "equity": 2143.0471,
-    "peak_equity": 2143.0471,
+    "cash": 930.2879,
+    "equity": 2153.0934,
+    "peak_equity": 2153.7098,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 143.0471,
-    "total_pnl_pct": 7.1524
+    "total_pnl": 153.0934,
+    "total_pnl_pct": 7.6547
   },
   "longs": {
     "FIGR_HELOC": {
       "direction": "LONG",
       "name": "Figure Heloc",
       "entry_price": 1.036,
-      "current_price": 1.036,
+      "current_price": 1.005,
       "quantity": 228.30976824,
       "cost_basis": 236.5289,
       "fee_open": 0.2365,
@@ -21,31 +21,15 @@
       "take_profit": 1.1914,
       "score": 3.556,
       "c24h_entry": 3.3411576208606997,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
+      "pnl_pct": -2.992,
+      "pnl_usd": -7.0776,
       "opened_at": "2026-06-19 22:38:57"
-    },
-    "UNI": {
-      "direction": "LONG",
-      "name": "Uniswap",
-      "entry_price": 5.65,
-      "current_price": 6.33,
-      "quantity": 48.84175035,
-      "cost_basis": 275.9559,
-      "fee_open": 0.276,
-      "stop_loss": 5.2545,
-      "take_profit": 6.4975,
-      "score": 8.083,
-      "c24h_entry": 11.02603,
-      "pnl_pct": 12.035,
-      "pnl_usd": 33.2124,
-      "opened_at": "2026-09-01 10:19:25"
     },
     "ZEC": {
       "direction": "LONG",
       "name": "Zcash",
       "entry_price": 947.39,
-      "current_price": 1019.87,
+      "current_price": 1023.64,
       "quantity": 0.30082138,
       "cost_basis": 284.9952,
       "fee_open": 0.285,
@@ -53,9 +37,25 @@
       "take_profit": 1089.4985,
       "score": 11.04,
       "c24h_entry": 17.48163,
-      "pnl_pct": 7.65,
-      "pnl_usd": 21.8035,
+      "pnl_pct": 8.048,
+      "pnl_usd": 22.9376,
       "opened_at": "2026-09-03 17:28:22"
+    },
+    "NEAR": {
+      "direction": "LONG",
+      "name": "NEAR Protocol",
+      "entry_price": 2.22,
+      "current_price": 2.22,
+      "quantity": 130.94902703,
+      "cost_basis": 290.7068,
+      "fee_open": 0.2907,
+      "stop_loss": 2.0646,
+      "take_profit": 2.553,
+      "score": 8.846,
+      "c24h_entry": 11.67517,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-09-05 17:26:34"
     }
   },
   "shorts": {
@@ -1084,21 +1084,33 @@
       "c24h": 17.48163,
       "reason": "Bullish momentum score 11.04 | 24h +17.48%",
       "timestamp": "2026-09-03 17:28:22"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "UNI",
+      "price": 6.67,
+      "value": 325.7745,
+      "pnl_usd": 49.4928,
+      "pnl_pct": 18.053,
+      "fee": 0.3258,
+      "opened_at": "2026-09-01 10:19:25",
+      "reason": "TAKE_PROFIT (+18.05%)",
+      "timestamp": "2026-09-05 17:26:34"
+    },
+    {
+      "action": "LONG_OPEN",
+      "symbol": "NEAR",
+      "price": 2.22,
+      "qty": 130.94902703,
+      "value": 290.71,
+      "fee": 0.2907,
+      "score": 8.846,
+      "c24h": 11.67517,
+      "reason": "Bullish momentum score 8.85 | 24h +11.68%",
+      "timestamp": "2026-09-05 17:26:34"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-23 04:31",
-      "equity": 2030.2399
-    },
-    {
-      "ts": "2026-08-23 04:31",
-      "equity": 2030.2399
-    },
-    {
-      "ts": "2026-08-23 05:24",
-      "equity": 2028.8064
-    },
     {
       "ts": "2026-08-23 05:24",
       "equity": 2028.8064
@@ -3086,16 +3098,28 @@
     {
       "ts": "2026-09-05 15:24",
       "equity": 2143.0471
+    },
+    {
+      "ts": "2026-09-05 17:26",
+      "equity": 2153.7098
+    },
+    {
+      "ts": "2026-09-05 17:26",
+      "equity": 2153.384
+    },
+    {
+      "ts": "2026-09-05 17:26",
+      "equity": 2153.0934
     }
   ],
   "stats": {
-    "total_trades": 44,
-    "winning_trades": 16,
+    "total_trades": 45,
+    "winning_trades": 17,
     "losing_trades": 24,
-    "total_fees_paid": 26.2678,
-    "runs": 1096,
+    "total_fees_paid": 26.8843,
+    "runs": 1097,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-05 15:24:36",
+    "last_run": "2026-09-05 17:26:34",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
