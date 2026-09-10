@@ -1,19 +1,19 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 1017.1537,
-    "equity": 2232.9051,
+    "cash": 1290.1583,
+    "equity": 2212.6403,
     "peak_equity": 2281.7287,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 232.9051,
-    "total_pnl_pct": 11.6453
+    "total_pnl": 212.6403,
+    "total_pnl_pct": 10.632
   },
   "longs": {
     "FIGR_HELOC": {
       "direction": "LONG",
       "name": "Figure Heloc",
       "entry_price": 1.036,
-      "current_price": 1.033,
+      "current_price": 1.035,
       "quantity": 228.30976824,
       "cost_basis": 236.5289,
       "fee_open": 0.2365,
@@ -21,31 +21,15 @@
       "take_profit": 1.1914,
       "score": 3.556,
       "c24h_entry": 3.3411576208606997,
-      "pnl_pct": -0.29,
-      "pnl_usd": -0.6849,
+      "pnl_pct": -0.097,
+      "pnl_usd": -0.2283,
       "opened_at": "2026-06-19 22:38:57"
-    },
-    "ZEC": {
-      "direction": "LONG",
-      "name": "Zcash",
-      "entry_price": 1172.0,
-      "current_price": 1131.28,
-      "quantity": 0.25442502,
-      "cost_basis": 298.1861,
-      "fee_open": 0.2982,
-      "stop_loss": 1089.96,
-      "take_profit": 1347.8,
-      "score": 10.981,
-      "c24h_entry": 15.44309,
-      "pnl_pct": -3.474,
-      "pnl_usd": -10.3602,
-      "opened_at": "2026-09-06 06:14:37"
     },
     "NEAR": {
       "direction": "LONG",
       "name": "NEAR Protocol",
       "entry_price": 2.61,
-      "current_price": 2.52,
+      "current_price": 2.47,
       "quantity": 118.00277586,
       "cost_basis": 307.9872,
       "fee_open": 0.308,
@@ -53,8 +37,8 @@
       "take_profit": 3.0015,
       "score": 7.43,
       "c24h_entry": 10.97552,
-      "pnl_pct": -3.448,
-      "pnl_usd": -10.6202,
+      "pnl_pct": -5.364,
+      "pnl_usd": -16.5204,
       "opened_at": "2026-09-09 14:59:40"
     }
   },
@@ -1156,21 +1140,21 @@
       "c24h": 10.97552,
       "reason": "Bullish momentum score 7.43 | 24h +10.98%",
       "timestamp": "2026-09-09 14:59:40"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "ZEC",
+      "price": 1074.1,
+      "value": 273.2779,
+      "pnl_usd": -25.1815,
+      "pnl_pct": -8.353,
+      "fee": 0.2733,
+      "opened_at": "2026-09-06 06:14:37",
+      "reason": "STOP_LOSS (-8.35%)",
+      "timestamp": "2026-09-10 23:18:36"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-24 02:42",
-      "equity": 2072.6622
-    },
-    {
-      "ts": "2026-08-24 02:42",
-      "equity": 2072.6622
-    },
-    {
-      "ts": "2026-08-24 03:50",
-      "equity": 2065.3424
-    },
     {
       "ts": "2026-08-24 03:50",
       "equity": 2065.3424
@@ -3158,16 +3142,28 @@
     {
       "ts": "2026-09-10 21:21",
       "equity": 2232.9051
+    },
+    {
+      "ts": "2026-09-10 23:18",
+      "equity": 2212.9136
+    },
+    {
+      "ts": "2026-09-10 23:18",
+      "equity": 2212.6403
+    },
+    {
+      "ts": "2026-09-10 23:18",
+      "equity": 2212.6403
     }
   ],
   "stats": {
     "total_trades": 47,
     "winning_trades": 19,
-    "losing_trades": 24,
-    "total_fees_paid": 28.1849,
-    "runs": 1133,
+    "losing_trades": 25,
+    "total_fees_paid": 28.4582,
+    "runs": 1134,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-10 21:21:01",
+    "last_run": "2026-09-10 23:18:36",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
