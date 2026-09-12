@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 750.6157,
-    "equity": 2155.3559,
+    "equity": 2145.0549,
     "peak_equity": 2281.7287,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 155.3559,
-    "total_pnl_pct": 7.7678
+    "total_pnl": 145.0549,
+    "total_pnl_pct": 7.2527
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "Zcash",
       "entry_price": 1179.31,
-      "current_price": 1162.65,
+      "current_price": 1138.38,
       "quantity": 0.33232366,
       "cost_basis": 391.9126,
       "fee_open": 0.3919,
@@ -37,15 +37,15 @@
       "take_profit": 1356.2065,
       "score": 4.388,
       "c24h_entry": 4.19441,
-      "pnl_pct": -1.413,
-      "pnl_usd": -5.5365,
+      "pnl_pct": -3.471,
+      "pnl_usd": -13.602,
       "opened_at": "2026-09-11 21:33:06"
     },
     "SOL": {
       "direction": "LONG",
       "name": "Solana",
       "entry_price": 102.41,
-      "current_price": 102.41,
+      "current_price": 101.82,
       "quantity": 3.78902355,
       "cost_basis": 388.0339,
       "fee_open": 0.388,
@@ -53,8 +53,8 @@
       "take_profit": 117.7715,
       "score": 3.559,
       "c24h_entry": 3.42583,
-      "pnl_pct": 0.0,
-      "pnl_usd": 0.0,
+      "pnl_pct": -0.576,
+      "pnl_usd": -2.2355,
       "opened_at": "2026-09-11 23:50:18"
     }
   },
@@ -1231,18 +1231,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-24 10:32",
-      "equity": 2063.4579
-    },
-    {
-      "ts": "2026-08-24 10:32",
-      "equity": 2063.4579
-    },
-    {
-      "ts": "2026-08-24 11:22",
-      "equity": 2062.0938
-    },
     {
       "ts": "2026-08-24 11:22",
       "equity": 2062.0938
@@ -3230,6 +3218,18 @@
     {
       "ts": "2026-09-11 23:50",
       "equity": 2155.3559
+    },
+    {
+      "ts": "2026-09-12 02:53",
+      "equity": 2145.0549
+    },
+    {
+      "ts": "2026-09-12 02:53",
+      "equity": 2145.0549
+    },
+    {
+      "ts": "2026-09-12 02:53",
+      "equity": 2145.0549
     }
   ],
   "stats": {
@@ -3237,9 +3237,9 @@
     "winning_trades": 19,
     "losing_trades": 27,
     "total_fees_paid": 30.2778,
-    "runs": 1141,
+    "runs": 1142,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-11 23:50:18",
+    "last_run": "2026-09-12 02:53:19",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
