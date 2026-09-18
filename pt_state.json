@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 731.3796,
-    "equity": 2132.9339,
+    "equity": 2141.2167,
     "peak_equity": 2281.7287,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 132.9339,
-    "total_pnl_pct": 6.6467
+    "total_pnl": 141.2167,
+    "total_pnl_pct": 7.0608
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "Solana",
       "entry_price": 102.41,
-      "current_price": 101.09,
+      "current_price": 105.42,
       "quantity": 3.78902355,
       "cost_basis": 388.0339,
       "fee_open": 0.388,
@@ -37,8 +37,8 @@
       "take_profit": 117.7715,
       "score": 3.559,
       "c24h_entry": 3.42583,
-      "pnl_pct": -1.289,
-      "pnl_usd": -5.0015,
+      "pnl_pct": 2.939,
+      "pnl_usd": 11.405,
       "opened_at": "2026-09-11 23:50:18"
     },
     "BTW": {
@@ -1255,18 +1255,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-25 17:26",
-      "equity": 2059.4003
-    },
-    {
-      "ts": "2026-08-25 17:26",
-      "equity": 2059.4003
-    },
-    {
-      "ts": "2026-08-25 17:55",
-      "equity": 2059.7396
-    },
     {
       "ts": "2026-08-25 17:55",
       "equity": 2059.7396
@@ -3254,6 +3242,18 @@
     {
       "ts": "2026-09-18 00:34",
       "equity": 2132.9339
+    },
+    {
+      "ts": "2026-09-18 05:29",
+      "equity": 2141.2167
+    },
+    {
+      "ts": "2026-09-18 05:29",
+      "equity": 2141.2167
+    },
+    {
+      "ts": "2026-09-18 05:29",
+      "equity": 2141.2167
     }
   ],
   "stats": {
@@ -3261,9 +3261,9 @@
     "winning_trades": 19,
     "losing_trades": 28,
     "total_fees_paid": 31.0213,
-    "runs": 1179,
+    "runs": 1180,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-18 00:34:47",
+    "last_run": "2026-09-18 05:29:50",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
