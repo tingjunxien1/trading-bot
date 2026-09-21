@@ -1,19 +1,19 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 895.2704,
-    "equity": 2282.2315,
+    "cash": 1035.9248,
+    "equity": 2280.0855,
     "peak_equity": 2282.2315,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 282.2315,
-    "total_pnl_pct": 14.1116
+    "total_pnl": 280.0855,
+    "total_pnl_pct": 14.0043
   },
   "longs": {
     "FIGR_HELOC": {
       "direction": "LONG",
       "name": "Figure Heloc",
       "entry_price": 1.036,
-      "current_price": 1.037,
+      "current_price": 1.013,
       "quantity": 228.30976824,
       "cost_basis": 236.5289,
       "fee_open": 0.2365,
@@ -21,31 +21,15 @@
       "take_profit": 1.1914,
       "score": 3.556,
       "c24h_entry": 3.3411576208606997,
-      "pnl_pct": 0.097,
-      "pnl_usd": 0.2283,
+      "pnl_pct": -2.22,
+      "pnl_usd": -5.2511,
       "opened_at": "2026-06-19 22:38:57"
-    },
-    "SOL": {
-      "direction": "LONG",
-      "name": "Solana",
-      "entry_price": 102.41,
-      "current_price": 117.41,
-      "quantity": 3.78902355,
-      "cost_basis": 388.0339,
-      "fee_open": 0.388,
-      "stop_loss": 95.2413,
-      "take_profit": 117.7715,
-      "score": 3.559,
-      "c24h_entry": 3.42583,
-      "pnl_pct": 14.647,
-      "pnl_usd": 56.8354,
-      "opened_at": "2026-09-11 23:50:18"
     },
     "SUI": {
       "direction": "LONG",
       "name": "Sui",
       "entry_price": 1.002,
-      "current_price": 1.019,
+      "current_price": 1.018,
       "quantity": 304.82838323,
       "cost_basis": 305.438,
       "fee_open": 0.3054,
@@ -53,9 +37,25 @@
       "take_profit": 1.1523,
       "score": 14.113,
       "c24h_entry": 22.78416,
-      "pnl_pct": 1.697,
-      "pnl_usd": 5.1821,
+      "pnl_pct": 1.597,
+      "pnl_usd": 4.8773,
       "opened_at": "2026-09-21 10:55:54"
+    },
+    "PEPE": {
+      "direction": "LONG",
+      "name": "Pepe",
+      "entry_price": 4.87e-06,
+      "current_price": 4.87e-06,
+      "quantity": 63214187.98767967,
+      "cost_basis": 307.8531,
+      "fee_open": 0.3079,
+      "stop_loss": 4.53e-06,
+      "take_profit": 5.6e-06,
+      "score": 13.636,
+      "c24h_entry": 21.52006,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-09-21 20:44:50"
     }
   },
   "shorts": {
@@ -1276,21 +1276,33 @@
       "c24h": 22.78416,
       "reason": "Bullish momentum score 14.11 | 24h +22.78%",
       "timestamp": "2026-09-21 10:55:54"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "SOL",
+      "price": 118.57,
+      "value": 449.2645,
+      "pnl_usd": 60.7814,
+      "pnl_pct": 15.78,
+      "fee": 0.4493,
+      "opened_at": "2026-09-11 23:50:18",
+      "reason": "TAKE_PROFIT (+15.78%)",
+      "timestamp": "2026-09-21 20:44:50"
+    },
+    {
+      "action": "LONG_OPEN",
+      "symbol": "PEPE",
+      "price": 4.87e-06,
+      "qty": 63214187.98767967,
+      "value": 307.85,
+      "fee": 0.3079,
+      "score": 13.636,
+      "c24h": 21.52006,
+      "reason": "Bullish momentum score 13.64 | 24h +21.52%",
+      "timestamp": "2026-09-21 20:44:50"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-26 11:36",
-      "equity": 2048.7993
-    },
-    {
-      "ts": "2026-08-26 11:36",
-      "equity": 2048.7993
-    },
-    {
-      "ts": "2026-08-26 12:42",
-      "equity": 2046.6435
-    },
     {
       "ts": "2026-08-26 12:42",
       "equity": 2046.6435
@@ -3278,16 +3290,28 @@
     {
       "ts": "2026-09-21 16:46",
       "equity": 2282.2315
+    },
+    {
+      "ts": "2026-09-21 20:44",
+      "equity": 2280.8425
+    },
+    {
+      "ts": "2026-09-21 20:44",
+      "equity": 2280.3933
+    },
+    {
+      "ts": "2026-09-21 20:44",
+      "equity": 2280.0855
     }
   ],
   "stats": {
-    "total_trades": 52,
-    "winning_trades": 20,
+    "total_trades": 53,
+    "winning_trades": 21,
     "losing_trades": 28,
-    "total_fees_paid": 31.7968,
-    "runs": 1203,
+    "total_fees_paid": 32.554,
+    "runs": 1204,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-21 16:46:48",
+    "last_run": "2026-09-21 20:44:49",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
