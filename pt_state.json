@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 1035.9248,
-    "equity": 2280.8432,
+    "equity": 2288.7687,
     "peak_equity": 2299.0847,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 280.8432,
-    "total_pnl_pct": 14.0422
+    "total_pnl": 288.7687,
+    "total_pnl_pct": 14.4384
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "Sui",
       "entry_price": 1.002,
-      "current_price": 1.01,
+      "current_price": 1.036,
       "quantity": 304.82838323,
       "cost_basis": 305.438,
       "fee_open": 0.3054,
@@ -37,8 +37,8 @@
       "take_profit": 1.1523,
       "score": 14.113,
       "c24h_entry": 22.78416,
-      "pnl_pct": 0.798,
-      "pnl_usd": 2.4386,
+      "pnl_pct": 3.393,
+      "pnl_usd": 10.3642,
       "opened_at": "2026-09-21 10:55:54"
     },
     "PEPE": {
@@ -1303,18 +1303,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-08-30 16:52",
-      "equity": 2078.3568
-    },
-    {
-      "ts": "2026-08-30 16:52",
-      "equity": 2078.3568
-    },
-    {
-      "ts": "2026-08-30 19:36",
-      "equity": 2073.8395
-    },
     {
       "ts": "2026-08-30 19:36",
       "equity": 2073.8395
@@ -3302,6 +3290,18 @@
     {
       "ts": "2026-09-25 05:10",
       "equity": 2280.8432
+    },
+    {
+      "ts": "2026-09-25 10:22",
+      "equity": 2288.7687
+    },
+    {
+      "ts": "2026-09-25 10:22",
+      "equity": 2288.7687
+    },
+    {
+      "ts": "2026-09-25 10:22",
+      "equity": 2288.7687
     }
   ],
   "stats": {
@@ -3309,9 +3309,9 @@
     "winning_trades": 21,
     "losing_trades": 28,
     "total_fees_paid": 32.554,
-    "runs": 1224,
+    "runs": 1225,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-25 05:10:24",
+    "last_run": "2026-09-25 10:22:13",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
