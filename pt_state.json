@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 998.5159,
-    "equity": 2248.4436,
+    "equity": 2241.4847,
     "peak_equity": 2347.2587,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 248.4436,
-    "total_pnl_pct": 12.4222
+    "total_pnl": 241.4847,
+    "total_pnl_pct": 12.0742
   },
   "longs": {
     "FIGR_HELOC": {
@@ -45,7 +45,7 @@
       "direction": "LONG",
       "name": "Ethena",
       "entry_price": 0.266697,
-      "current_price": 0.270041,
+      "current_price": 0.263896,
       "quantity": 1132.45175986,
       "cost_basis": 302.0215,
       "fee_open": 0.302,
@@ -53,8 +53,8 @@
       "take_profit": 0.30670155,
       "score": 12.629,
       "c24h_entry": 20.37052,
-      "pnl_pct": 1.254,
-      "pnl_usd": 3.7869,
+      "pnl_pct": -1.05,
+      "pnl_usd": -3.172,
       "opened_at": "2026-09-26 06:21:04"
     }
   },
@@ -1351,18 +1351,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-09-02 16:48",
-      "equity": 2048.2831
-    },
-    {
-      "ts": "2026-09-02 16:48",
-      "equity": 2048.2831
-    },
-    {
-      "ts": "2026-09-02 19:37",
-      "equity": 2042.3737
-    },
     {
       "ts": "2026-09-02 19:37",
       "equity": 2042.3737
@@ -3350,6 +3338,18 @@
     {
       "ts": "2026-09-28 01:21",
       "equity": 2248.4436
+    },
+    {
+      "ts": "2026-09-28 07:15",
+      "equity": 2241.4847
+    },
+    {
+      "ts": "2026-09-28 07:15",
+      "equity": 2241.4847
+    },
+    {
+      "ts": "2026-09-28 07:15",
+      "equity": 2241.4847
     }
   ],
   "stats": {
@@ -3357,9 +3357,9 @@
     "winning_trades": 22,
     "losing_trades": 29,
     "total_fees_paid": 33.7526,
-    "runs": 1241,
+    "runs": 1242,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-28 01:21:49",
+    "last_run": "2026-09-28 07:15:16",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
