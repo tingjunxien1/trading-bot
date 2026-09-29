@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 998.5159,
-    "equity": 2212.8858,
+    "equity": 2239.6339,
     "peak_equity": 2347.2587,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 212.8858,
-    "total_pnl_pct": 10.6443
+    "total_pnl": 239.6339,
+    "total_pnl_pct": 11.9817
   },
   "longs": {
     "FIGR_HELOC": {
@@ -1351,18 +1351,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-09-03 04:53",
-      "equity": 2043.5359
-    },
-    {
-      "ts": "2026-09-03 04:53",
-      "equity": 2043.5359
-    },
-    {
-      "ts": "2026-09-03 09:24",
-      "equity": 2052.9135
-    },
     {
       "ts": "2026-09-03 09:24",
       "equity": 2052.9135
@@ -3350,6 +3338,18 @@
     {
       "ts": "2026-09-29 01:25",
       "equity": 2212.8858
+    },
+    {
+      "ts": "2026-09-29 07:14",
+      "equity": 2239.6339
+    },
+    {
+      "ts": "2026-09-29 07:14",
+      "equity": 2239.6339
+    },
+    {
+      "ts": "2026-09-29 07:14",
+      "equity": 2239.6339
     }
   ],
   "stats": {
@@ -3357,13 +3357,13 @@
     "winning_trades": 22,
     "losing_trades": 29,
     "total_fees_paid": 33.7526,
-    "runs": 1245,
+    "runs": 1246,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-29 01:25:40",
+    "last_run": "2026-09-29 07:14:21",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
-    "data_source": "coingecko"
+    "data_source": "kraken"
   },
   "config": {
     "max_longs": 3,

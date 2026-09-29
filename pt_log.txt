@@ -26895,3 +26895,25 @@
 [2026-09-29 01:25:40][INFO] Saved. Run complete.
 
 [2026-09-29 01:25:40][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-09-29 07:14:21][INFO] ====================================================================
+[2026-09-29 07:14:21][INFO] RUN #1246 START
+[2026-09-29 07:14:21][WARN] CoinGecko: 403 Client Error: Forbidden for url: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&sparkline=False&price_change_percentage=1h%2C24h%2C7d
+[2026-09-29 07:14:22][INFO] Market data: 18 coins from kraken
+[2026-09-29 07:14:22][INFO] Source: kraken | Coins: 18 | F&G: 73 (Greed)
+[2026-09-29 07:14:22][INFO] --- EXIT CHECK ---
+[2026-09-29 07:14:22][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-09-29 07:14:22][INFO]   Max longs (3) reached.
+[2026-09-29 07:14:22][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-09-29 07:14:22][INFO]   SKIP shorts — sentiment too bullish (F&G 73 > 45)
+[2026-09-29 07:14:22][INFO] ────────────────────────────────────────────────────────────────────
+[2026-09-29 07:14:22][INFO] EQUITY  $2,239.63  (+11.982%)  P&L $+239.63
+[2026-09-29 07:14:22][INFO] CASH    $998.52  |  Drawdown -11.63%  |  Win 43%
+[2026-09-29 07:14:22][INFO] LONGS: 3  SHORTS: 1  TOTAL TRADES: 55
+[2026-09-29 07:14:22][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0020  pnl=-3.28%
+[2026-09-29 07:14:22][INFO]   📈 LONG  PEPE     entry=$0.0000  now=$0.0000  pnl=-2.46%
+[2026-09-29 07:14:22][INFO]   📈 LONG  ENA      entry=$0.2667  now=$0.2499  pnl=-6.29%
+[2026-09-29 07:14:22][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-09-29 07:14:22][INFO] ====================================================================
+[2026-09-29 07:14:22][INFO] Saved. Run complete.
+
+[2026-09-29 07:14:22][INFO] Notification sent → topic=chris-trading-2026 status=200
