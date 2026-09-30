@@ -2,18 +2,18 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 998.5159,
-    "equity": 2239.6339,
+    "equity": 2218.9263,
     "peak_equity": 2347.2587,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 239.6339,
-    "total_pnl_pct": 11.9817
+    "total_pnl": 218.9263,
+    "total_pnl_pct": 10.9463
   },
   "longs": {
     "FIGR_HELOC": {
       "direction": "LONG",
       "name": "Figure Heloc",
       "entry_price": 1.036,
-      "current_price": 1.002,
+      "current_price": 1.03,
       "quantity": 228.30976824,
       "cost_basis": 236.5289,
       "fee_open": 0.2365,
@@ -21,8 +21,8 @@
       "take_profit": 1.1914,
       "score": 3.556,
       "c24h_entry": 3.3411576208606997,
-      "pnl_pct": -3.282,
-      "pnl_usd": -7.7625,
+      "pnl_pct": -0.579,
+      "pnl_usd": -1.3699,
       "opened_at": "2026-06-19 22:38:57"
     },
     "PEPE": {
@@ -45,7 +45,7 @@
       "direction": "LONG",
       "name": "Ethena",
       "entry_price": 0.266697,
-      "current_price": 0.249932,
+      "current_price": 0.249621,
       "quantity": 1132.45175986,
       "cost_basis": 302.0215,
       "fee_open": 0.302,
@@ -53,8 +53,8 @@
       "take_profit": 0.30670155,
       "score": 12.629,
       "c24h_entry": 20.37052,
-      "pnl_pct": -6.286,
-      "pnl_usd": -18.9856,
+      "pnl_pct": -6.403,
+      "pnl_usd": -19.3377,
       "opened_at": "2026-09-26 06:21:04"
     }
   },
@@ -1351,18 +1351,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-09-03 20:03",
-      "equity": 2120.4013
-    },
-    {
-      "ts": "2026-09-03 20:03",
-      "equity": 2120.4013
-    },
-    {
-      "ts": "2026-09-03 22:42",
-      "equity": 2120.0495
-    },
     {
       "ts": "2026-09-03 22:42",
       "equity": 2120.0495
@@ -3350,6 +3338,18 @@
     {
       "ts": "2026-09-29 23:23",
       "equity": 2239.6339
+    },
+    {
+      "ts": "2026-09-30 02:15",
+      "equity": 2218.9263
+    },
+    {
+      "ts": "2026-09-30 02:15",
+      "equity": 2218.9263
+    },
+    {
+      "ts": "2026-09-30 02:15",
+      "equity": 2218.9263
     }
   ],
   "stats": {
@@ -3357,13 +3357,13 @@
     "winning_trades": 22,
     "losing_trades": 29,
     "total_fees_paid": 33.7526,
-    "runs": 1249,
+    "runs": 1250,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-09-29 23:23:32",
+    "last_run": "2026-09-30 02:15:12",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
-    "data_source": "kraken"
+    "data_source": "coingecko"
   },
   "config": {
     "max_longs": 3,
