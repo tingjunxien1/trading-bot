@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 978.1561,
-    "equity": 2228.0259,
+    "equity": 2221.4467,
     "peak_equity": 2347.2587,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 228.0259,
-    "total_pnl_pct": 11.4013
+    "total_pnl": 221.4467,
+    "total_pnl_pct": 11.0723
   },
   "longs": {
     "FIGR_HELOC": {
@@ -45,7 +45,7 @@
       "direction": "LONG",
       "name": "Aave",
       "entry_price": 167.63,
-      "current_price": 171.74,
+      "current_price": 168.05,
       "quantity": 1.78296899,
       "cost_basis": 298.8791,
       "fee_open": 0.2989,
@@ -53,8 +53,8 @@
       "take_profit": 192.7745,
       "score": 4.613,
       "c24h_entry": 6.1947,
-      "pnl_pct": 2.452,
-      "pnl_usd": 7.328,
+      "pnl_pct": 0.251,
+      "pnl_usd": 0.7488,
       "opened_at": "2026-10-01 19:13:35"
     }
   },
@@ -1375,18 +1375,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-09-11 18:56",
-      "equity": 2180.6041
-    },
-    {
-      "ts": "2026-09-11 18:56",
-      "equity": 2180.6041
-    },
-    {
-      "ts": "2026-09-11 21:33",
-      "equity": 2177.2923
-    },
     {
       "ts": "2026-09-11 21:33",
       "equity": 2177.2923
@@ -3374,6 +3362,18 @@
     {
       "ts": "2026-10-12 01:30",
       "equity": 2228.0259
+    },
+    {
+      "ts": "2026-10-12 08:29",
+      "equity": 2221.4467
+    },
+    {
+      "ts": "2026-10-12 08:29",
+      "equity": 2221.4467
+    },
+    {
+      "ts": "2026-10-12 08:29",
+      "equity": 2221.4467
     }
   ],
   "stats": {
@@ -3381,9 +3381,9 @@
     "winning_trades": 22,
     "losing_trades": 30,
     "total_fees_paid": 34.3306,
-    "runs": 1305,
+    "runs": 1306,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-10-12 01:30:14",
+    "last_run": "2026-10-12 08:29:59",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
