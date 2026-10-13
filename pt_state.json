@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 855.2497,
-    "equity": 2214.3929,
+    "equity": 2237.2467,
     "peak_equity": 2347.2587,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 214.3929,
-    "total_pnl_pct": 10.7196
+    "total_pnl": 237.2467,
+    "total_pnl_pct": 11.8623
   },
   "longs": {
     "FIGR_HELOC": {
@@ -45,7 +45,7 @@
       "direction": "LONG",
       "name": "Bitway",
       "entry_price": 1.73,
-      "current_price": 1.81,
+      "current_price": 1.91,
       "quantity": 228.53811329,
       "cost_basis": 395.3709,
       "fee_open": 0.3954,
@@ -53,8 +53,8 @@
       "take_profit": 1.9895,
       "score": 4.049,
       "c24h_entry": 4.37331,
-      "pnl_pct": 4.624,
-      "pnl_usd": 18.283,
+      "pnl_pct": 10.405,
+      "pnl_usd": 41.1369,
       "opened_at": "2026-10-13 00:53:36"
     }
   },
@@ -1399,18 +1399,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-09-12 07:38",
-      "equity": 2142.9
-    },
-    {
-      "ts": "2026-09-12 07:38",
-      "equity": 2142.9
-    },
-    {
-      "ts": "2026-09-12 11:56",
-      "equity": 2146.0805
-    },
     {
       "ts": "2026-09-12 11:56",
       "equity": 2146.0805
@@ -3398,6 +3386,18 @@
     {
       "ts": "2026-10-13 07:18",
       "equity": 2214.3929
+    },
+    {
+      "ts": "2026-10-13 15:11",
+      "equity": 2237.2467
+    },
+    {
+      "ts": "2026-10-13 15:11",
+      "equity": 2237.2467
+    },
+    {
+      "ts": "2026-10-13 15:11",
+      "equity": 2237.2467
     }
   ],
   "stats": {
@@ -3405,9 +3405,9 @@
     "winning_trades": 22,
     "losing_trades": 31,
     "total_fees_paid": 34.9991,
-    "runs": 1309,
+    "runs": 1310,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-10-13 07:18:45",
+    "last_run": "2026-10-13 15:11:33",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
