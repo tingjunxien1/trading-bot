@@ -1,12 +1,12 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 978.1561,
-    "equity": 2210.8281,
+    "cash": 855.2497,
+    "equity": 2196.1098,
     "peak_equity": 2347.2587,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 210.8281,
-    "total_pnl_pct": 10.5414
+    "total_pnl": 196.1098,
+    "total_pnl_pct": 9.8055
   },
   "longs": {
     "FIGR_HELOC": {
@@ -41,21 +41,21 @@
       "pnl_usd": -7.5857,
       "opened_at": "2026-09-21 20:44:50"
     },
-    "AAVE": {
+    "BTW": {
       "direction": "LONG",
-      "name": "Aave",
-      "entry_price": 167.63,
-      "current_price": 161.07,
-      "quantity": 1.78296899,
-      "cost_basis": 298.8791,
-      "fee_open": 0.2989,
-      "stop_loss": 155.8959,
-      "take_profit": 192.7745,
-      "score": 4.613,
-      "c24h_entry": 6.1947,
-      "pnl_pct": -3.913,
-      "pnl_usd": -11.6963,
-      "opened_at": "2026-10-01 19:13:35"
+      "name": "Bitway",
+      "entry_price": 1.73,
+      "current_price": 1.73,
+      "quantity": 228.53811329,
+      "cost_basis": 395.3709,
+      "fee_open": 0.3954,
+      "stop_loss": 1.6089,
+      "take_profit": 1.9895,
+      "score": 4.049,
+      "c24h_entry": 4.37331,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-10-13 00:53:36"
     }
   },
   "shorts": {
@@ -1372,21 +1372,33 @@
       "c24h": 6.1947,
       "reason": "Bullish momentum score 4.61 | 24h +6.19%",
       "timestamp": "2026-10-01 19:13:35"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "AAVE",
+      "price": 153.19,
+      "value": 273.133,
+      "pnl_usd": -26.0192,
+      "pnl_pct": -8.614,
+      "fee": 0.2731,
+      "opened_at": "2026-10-01 19:13:35",
+      "reason": "STOP_LOSS (-8.61%)",
+      "timestamp": "2026-10-13 00:53:35"
+    },
+    {
+      "action": "LONG_OPEN",
+      "symbol": "BTW",
+      "price": 1.73,
+      "qty": 228.53811329,
+      "value": 395.37,
+      "fee": 0.3954,
+      "score": 4.049,
+      "c24h": 4.37331,
+      "reason": "Bullish momentum score 4.05 | 24h +4.37%",
+      "timestamp": "2026-10-13 00:53:36"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-09-11 23:50",
-      "equity": 2155.7439
-    },
-    {
-      "ts": "2026-09-11 23:50",
-      "equity": 2155.3559
-    },
-    {
-      "ts": "2026-09-12 02:53",
-      "equity": 2145.0549
-    },
     {
       "ts": "2026-09-12 02:53",
       "equity": 2145.0549
@@ -3374,16 +3386,28 @@
     {
       "ts": "2026-10-12 18:09",
       "equity": 2210.8281
+    },
+    {
+      "ts": "2026-10-13 00:53",
+      "equity": 2196.7783
+    },
+    {
+      "ts": "2026-10-13 00:53",
+      "equity": 2196.5052
+    },
+    {
+      "ts": "2026-10-13 00:53",
+      "equity": 2196.1098
     }
   ],
   "stats": {
-    "total_trades": 56,
+    "total_trades": 57,
     "winning_trades": 22,
-    "losing_trades": 30,
-    "total_fees_paid": 34.3306,
-    "runs": 1307,
+    "losing_trades": 31,
+    "total_fees_paid": 34.9991,
+    "runs": 1308,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-10-12 18:09:07",
+    "last_run": "2026-10-13 00:53:28",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
