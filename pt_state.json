@@ -1,19 +1,19 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 976.2065,
-    "equity": 2334.1571,
+    "cash": 950.7493,
+    "equity": 2305.0595,
     "peak_equity": 2372.4752,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 334.1571,
-    "total_pnl_pct": 16.7079
+    "total_pnl": 305.0595,
+    "total_pnl_pct": 15.253
   },
   "longs": {
     "FIGR_HELOC": {
       "direction": "LONG",
       "name": "Figure Heloc",
       "entry_price": 1.036,
-      "current_price": 1.03,
+      "current_price": 1.037,
       "quantity": 228.30976824,
       "cost_basis": 236.5289,
       "fee_open": 0.2365,
@@ -21,8 +21,8 @@
       "take_profit": 1.1914,
       "score": 3.556,
       "c24h_entry": 3.3411576208606997,
-      "pnl_pct": -0.579,
-      "pnl_usd": -1.3699,
+      "pnl_pct": 0.097,
+      "pnl_usd": 0.2283,
       "opened_at": "2026-06-19 22:38:57"
     },
     "PEPE": {
@@ -44,18 +44,18 @@
     "BTW": {
       "direction": "LONG",
       "name": "Bitway",
-      "entry_price": 2.39,
-      "current_price": 2.39,
-      "quantity": 175.82591297,
-      "cost_basis": 420.2239,
-      "fee_open": 0.4202,
-      "stop_loss": 2.2227,
-      "take_profit": 2.7485,
-      "score": 15.505,
-      "c24h_entry": 26.90637,
+      "entry_price": 2.22,
+      "current_price": 2.22,
+      "quantity": 186.93036486,
+      "cost_basis": 414.9854,
+      "fee_open": 0.415,
+      "stop_loss": 2.0646,
+      "take_profit": 2.553,
+      "score": 10.042,
+      "c24h_entry": 15.27026,
       "pnl_pct": 0.0,
       "pnl_usd": 0.0,
-      "opened_at": "2026-10-14 15:18:39"
+      "opened_at": "2026-10-14 19:32:44"
     }
   },
   "shorts": {
@@ -1468,21 +1468,33 @@
       "c24h": 26.90637,
       "reason": "Bullish momentum score 15.51 | 24h +26.91%",
       "timestamp": "2026-10-14 15:18:39"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "BTW",
+      "price": 2.22,
+      "value": 390.3335,
+      "pnl_usd": -30.2807,
+      "pnl_pct": -7.113,
+      "fee": 0.3903,
+      "opened_at": "2026-10-14 15:18:39",
+      "reason": "STOP_LOSS (-7.11%)",
+      "timestamp": "2026-10-14 19:32:44"
+    },
+    {
+      "action": "LONG_OPEN",
+      "symbol": "BTW",
+      "price": 2.22,
+      "qty": 186.93036486,
+      "value": 414.99,
+      "fee": 0.415,
+      "score": 10.042,
+      "c24h": 15.27026,
+      "reason": "Bullish momentum score 10.04 | 24h +15.27%",
+      "timestamp": "2026-10-14 19:32:44"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-09-13 00:08",
-      "equity": 2132.3599
-    },
-    {
-      "ts": "2026-09-13 00:08",
-      "equity": 2132.3599
-    },
-    {
-      "ts": "2026-09-13 05:07",
-      "equity": 2139.7734
-    },
     {
       "ts": "2026-09-13 05:07",
       "equity": 2139.7734
@@ -3470,16 +3482,28 @@
     {
       "ts": "2026-10-14 15:18",
       "equity": 2334.1571
+    },
+    {
+      "ts": "2026-10-14 19:32",
+      "equity": 2305.8649
+    },
+    {
+      "ts": "2026-10-14 19:32",
+      "equity": 2305.4745
+    },
+    {
+      "ts": "2026-10-14 19:32",
+      "equity": 2305.0595
     }
   ],
   "stats": {
-    "total_trades": 60,
+    "total_trades": 61,
     "winning_trades": 24,
-    "losing_trades": 32,
-    "total_fees_paid": 37.6333,
-    "runs": 1315,
+    "losing_trades": 33,
+    "total_fees_paid": 38.4386,
+    "runs": 1316,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-10-14 15:18:38",
+    "last_run": "2026-10-14 19:32:43",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
