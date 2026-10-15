@@ -28492,3 +28492,25 @@
 [2026-10-15 11:52:18][INFO] Saved. Run complete.
 
 [2026-10-15 11:52:19][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-10-15 16:12:25][INFO] ====================================================================
+[2026-10-15 16:12:25][INFO] RUN #1321 START
+[2026-10-15 16:12:25][INFO] Market data: 50 coins from coingecko
+[2026-10-15 16:12:25][INFO] Source: coingecko | Coins: 50 | F&G: 53 (Neutral)
+[2026-10-15 16:12:25][INFO] --- EXIT CHECK ---
+[2026-10-15 16:12:25][INFO] --- LONG ENTRY CHECK (2/3) ---
+[2026-10-15 16:12:25][INFO]   📈 LONG  OPEN  NEAR     @ $      5.1600  val=$403.45  score=5.29
+[2026-10-15 16:12:25][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-10-15 16:12:25][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-10-15 16:12:25][INFO]   SKIP shorts — sentiment too bullish (F&G 53 > 45)
+[2026-10-15 16:12:25][INFO] ────────────────────────────────────────────────────────────────────
+[2026-10-15 16:12:25][INFO] EQUITY  $2,240.98  (+12.049%)  P&L $+240.98
+[2026-10-15 16:12:25][INFO] CASH    $897.98  |  Drawdown -11.63%  |  Win 41%
+[2026-10-15 16:12:25][INFO] LONGS: 3  SHORTS: 1  TOTAL TRADES: 62
+[2026-10-15 16:12:25][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0380  pnl=+0.19%
+[2026-10-15 16:12:25][INFO]   📈 LONG  PEPE     entry=$0.0000  now=$0.0000  pnl=-2.46%
+[2026-10-15 16:12:25][INFO]   📈 LONG  NEAR     entry=$5.1600  now=$5.1600  pnl=+0.00%
+[2026-10-15 16:12:25][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-10-15 16:12:25][INFO] ====================================================================
+[2026-10-15 16:12:25][INFO] Saved. Run complete.
+
+[2026-10-15 16:12:25][INFO] Notification sent → topic=chris-trading-2026 status=200
