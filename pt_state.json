@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 897.9751,
-    "equity": 2225.7051,
+    "equity": 2229.6145,
     "peak_equity": 2372.4752,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 225.7051,
-    "total_pnl_pct": 11.2853
+    "total_pnl": 229.6145,
+    "total_pnl_pct": 11.4807
   },
   "longs": {
     "FIGR_HELOC": {
@@ -45,7 +45,7 @@
       "direction": "LONG",
       "name": "NEAR Protocol",
       "entry_price": 5.16,
-      "current_price": 4.88,
+      "current_price": 4.93,
       "quantity": 78.18767791,
       "cost_basis": 403.4484,
       "fee_open": 0.4034,
@@ -53,8 +53,8 @@
       "take_profit": 5.934,
       "score": 5.285,
       "c24h_entry": 5.93783,
-      "pnl_pct": -5.426,
-      "pnl_usd": -21.8925,
+      "pnl_pct": -4.457,
+      "pnl_usd": -17.9832,
       "opened_at": "2026-10-15 16:12:25"
     }
   },
@@ -1519,18 +1519,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-09-16 21:30",
-      "equity": 2131.4485
-    },
-    {
-      "ts": "2026-09-16 21:30",
-      "equity": 2131.4485
-    },
-    {
-      "ts": "2026-09-17 00:01",
-      "equity": 2145.5602
-    },
     {
       "ts": "2026-09-17 00:01",
       "equity": 2145.5602
@@ -3518,6 +3506,18 @@
     {
       "ts": "2026-10-18 01:20",
       "equity": 2225.7051
+    },
+    {
+      "ts": "2026-10-18 06:17",
+      "equity": 2229.6145
+    },
+    {
+      "ts": "2026-10-18 06:17",
+      "equity": 2229.6145
+    },
+    {
+      "ts": "2026-10-18 06:17",
+      "equity": 2229.6145
     }
   ],
   "stats": {
@@ -3525,9 +3525,9 @@
     "winning_trades": 24,
     "losing_trades": 34,
     "total_fees_paid": 39.1934,
-    "runs": 1338,
+    "runs": 1339,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-10-18 01:20:30",
+    "last_run": "2026-10-18 06:17:29",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
