@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 897.8949,
-    "equity": 2224.8261,
+    "equity": 2227.1549,
     "peak_equity": 2372.4752,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 224.8261,
-    "total_pnl_pct": 11.2413
+    "total_pnl": 227.1549,
+    "total_pnl_pct": 11.3577
   },
   "longs": {
     "FIGR_HELOC": {
@@ -45,7 +45,7 @@
       "direction": "LONG",
       "name": "Worldcoin",
       "entry_price": 0.590805,
-      "current_price": 0.572233,
+      "current_price": 0.575649,
       "quantity": 681.74633255,
       "cost_basis": 402.7791,
       "fee_open": 0.4028,
@@ -53,8 +53,8 @@
       "take_profit": 0.67942575,
       "score": 7.787,
       "c24h_entry": 11.51032,
-      "pnl_pct": -3.144,
-      "pnl_usd": -12.6614,
+      "pnl_pct": -2.565,
+      "pnl_usd": -10.3325,
       "opened_at": "2026-10-20 23:16:50"
     }
   },
@@ -1591,18 +1591,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-09-20 00:13",
-      "equity": 2159.3555
-    },
-    {
-      "ts": "2026-09-20 00:13",
-      "equity": 2159.3555
-    },
-    {
-      "ts": "2026-09-20 05:09",
-      "equity": 2152.1943
-    },
     {
       "ts": "2026-09-20 05:09",
       "equity": 2152.1943
@@ -3590,6 +3578,18 @@
     {
       "ts": "2026-10-21 17:51",
       "equity": 2224.8261
+    },
+    {
+      "ts": "2026-10-21 21:10",
+      "equity": 2227.1549
+    },
+    {
+      "ts": "2026-10-21 21:10",
+      "equity": 2227.1549
+    },
+    {
+      "ts": "2026-10-21 21:10",
+      "equity": 2227.1549
     }
   ],
   "stats": {
@@ -3597,9 +3597,9 @@
     "winning_trades": 25,
     "losing_trades": 36,
     "total_fees_paid": 41.5806,
-    "runs": 1359,
+    "runs": 1360,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-10-21 17:51:34",
+    "last_run": "2026-10-21 21:10:31",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
