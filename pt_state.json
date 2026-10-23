@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 952.0486,
-    "equity": 2174.2886,
+    "equity": 2199.5537,
     "peak_equity": 2372.4752,
     "max_drawdown_pct": -11.633,
-    "total_pnl": 174.2886,
-    "total_pnl_pct": 8.7144
+    "total_pnl": 199.5537,
+    "total_pnl_pct": 9.9777
   },
   "longs": {
     "FIGR_HELOC": {
@@ -29,7 +29,7 @@
       "direction": "LONG",
       "name": "Pepe",
       "entry_price": 4.87e-06,
-      "current_price": 4.75e-06,
+      "current_price": 5.06e-06,
       "quantity": 63214187.98767967,
       "cost_basis": 307.8531,
       "fee_open": 0.3079,
@@ -37,15 +37,15 @@
       "take_profit": 5.6e-06,
       "score": 13.636,
       "c24h_entry": 21.52006,
-      "pnl_pct": -2.464,
-      "pnl_usd": -7.5857,
+      "pnl_pct": 3.901,
+      "pnl_usd": 12.0107,
       "opened_at": "2026-09-21 20:44:50"
     },
     "BTW": {
       "direction": "LONG",
       "name": "Bitway",
       "entry_price": 1.78,
-      "current_price": 1.72,
+      "current_price": 1.8,
       "quantity": 165.68021376,
       "cost_basis": 294.9108,
       "fee_open": 0.2949,
@@ -53,8 +53,8 @@
       "take_profit": 2.047,
       "score": 5.955,
       "c24h_entry": 10.06589,
-      "pnl_pct": -3.371,
-      "pnl_usd": -9.9408,
+      "pnl_pct": 1.124,
+      "pnl_usd": 3.3136,
       "opened_at": "2026-10-22 22:34:55"
     }
   },
@@ -1639,18 +1639,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-09-21 10:55",
-      "equity": 2262.504
-    },
-    {
-      "ts": "2026-09-21 10:55",
-      "equity": 2262.1985
-    },
-    {
-      "ts": "2026-09-21 16:46",
-      "equity": 2282.2315
-    },
     {
       "ts": "2026-09-21 16:46",
       "equity": 2282.2315
@@ -3638,6 +3626,18 @@
     {
       "ts": "2026-10-23 06:14",
       "equity": 2174.2886
+    },
+    {
+      "ts": "2026-10-23 11:54",
+      "equity": 2199.5537
+    },
+    {
+      "ts": "2026-10-23 11:54",
+      "equity": 2199.5537
+    },
+    {
+      "ts": "2026-10-23 11:54",
+      "equity": 2199.5537
     }
   ],
   "stats": {
@@ -3645,9 +3645,9 @@
     "winning_trades": 25,
     "losing_trades": 38,
     "total_fees_paid": 42.8222,
-    "runs": 1368,
+    "runs": 1369,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-10-23 06:14:37",
+    "last_run": "2026-10-23 11:54:23",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
