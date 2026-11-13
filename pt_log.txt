@@ -31548,3 +31548,25 @@
 [2026-11-13 11:27:24][INFO] Saved. Run complete.
 
 [2026-11-13 11:27:24][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-11-13 18:39:49][INFO] ====================================================================
+[2026-11-13 18:39:49][INFO] RUN #1463 START
+[2026-11-13 18:39:49][INFO] Market data: 50 coins from coingecko
+[2026-11-13 18:39:49][INFO] Source: coingecko | Coins: 50 | F&G: 20 (Extreme Fear)
+[2026-11-13 18:39:49][INFO] --- EXIT CHECK ---
+[2026-11-13 18:39:49][INFO]   ❌ LONG  CLOSE GRAM     @ $      1.1300  pnl=$-30.23 (-7.38%)  [STOP_LOSS (-7.38%)]
+[2026-11-13 18:39:49][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-11-13 18:39:49][INFO] --- LONG ENTRY CHECK (2/3) ---
+[2026-11-13 18:39:49][INFO] --- SHORT ENTRY CHECK (2/2) ---
+[2026-11-13 18:39:49][INFO]   Max shorts (2) reached.
+[2026-11-13 18:39:49][INFO] ────────────────────────────────────────────────────────────────────
+[2026-11-13 18:39:49][INFO] EQUITY  $2,094.35  (+4.718%)  P&L $+94.35
+[2026-11-13 18:39:49][INFO] CASH    $629.80  |  Drawdown -14.52%  |  Win 37%
+[2026-11-13 18:39:49][INFO] LONGS: 2  SHORTS: 2  TOTAL TRADES: 77
+[2026-11-13 18:39:49][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0030  pnl=-3.19%
+[2026-11-13 18:39:49][INFO]   📈 LONG  AVAX     entry=$8.5900  now=$8.4000  pnl=-2.21%
+[2026-11-13 18:39:49][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-11-13 18:39:49][INFO]   📉 SHORT RAIN     entry=$0.0042  now=$0.0037  pnl=+11.48%
+[2026-11-13 18:39:49][INFO] ====================================================================
+[2026-11-13 18:39:49][INFO] Saved. Run complete.
+
+[2026-11-13 18:39:49][INFO] Notification sent → topic=chris-trading-2026 status=200
