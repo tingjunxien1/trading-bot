@@ -2,11 +2,11 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 999.1837,
-    "equity": 2085.0769,
+    "equity": 2087.5796,
     "peak_equity": 2372.4752,
     "max_drawdown_pct": -14.5157,
-    "total_pnl": 85.0769,
-    "total_pnl_pct": 4.2538
+    "total_pnl": 87.5796,
+    "total_pnl_pct": 4.379
   },
   "longs": {
     "FIGR_HELOC": {
@@ -47,7 +47,7 @@
       "direction": "SHORT",
       "name": "Rain",
       "entry_price": 0.0042033,
-      "current_price": 0.00369275,
+      "current_price": 0.00366667,
       "quantity": 95965.43009064,
       "cost_basis": 403.3715,
       "fee_open": 0.4034,
@@ -55,8 +55,8 @@
       "take_profit": 0.00357281,
       "score": -5.341,
       "c24h_entry": -8.65387,
-      "pnl_pct": 12.146,
-      "pnl_usd": 48.9952,
+      "pnl_pct": 12.767,
+      "pnl_usd": 51.4979,
       "opened_at": "2026-11-10 11:29:15"
     }
   },
@@ -1875,18 +1875,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-10-11 00:18",
-      "equity": 2224.1434
-    },
-    {
-      "ts": "2026-10-11 00:18",
-      "equity": 2224.1434
-    },
-    {
-      "ts": "2026-10-11 06:07",
-      "equity": 2222.093
-    },
     {
       "ts": "2026-10-11 06:07",
       "equity": 2222.093
@@ -3874,6 +3862,18 @@
     {
       "ts": "2026-11-14 13:54",
       "equity": 2085.0769
+    },
+    {
+      "ts": "2026-11-14 18:55",
+      "equity": 2087.5796
+    },
+    {
+      "ts": "2026-11-14 18:55",
+      "equity": 2087.5796
+    },
+    {
+      "ts": "2026-11-14 18:55",
+      "equity": 2087.5796
     }
   ],
   "stats": {
@@ -3881,9 +3881,9 @@
     "winning_trades": 27,
     "losing_trades": 47,
     "total_fees_paid": 50.5894,
-    "runs": 1466,
+    "runs": 1467,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-11-14 13:54:59",
+    "last_run": "2026-11-14 18:55:50",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
