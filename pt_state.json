@@ -2,18 +2,18 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 629.7983,
-    "equity": 2088.7572,
+    "equity": 2091.2428,
     "peak_equity": 2372.4752,
     "max_drawdown_pct": -14.5157,
-    "total_pnl": 88.7572,
-    "total_pnl_pct": 4.4379
+    "total_pnl": 91.2428,
+    "total_pnl_pct": 4.5621
   },
   "longs": {
     "FIGR_HELOC": {
       "direction": "LONG",
       "name": "Figure Heloc",
       "entry_price": 1.036,
-      "current_price": 1.004,
+      "current_price": 1.047,
       "quantity": 228.30976824,
       "cost_basis": 236.5289,
       "fee_open": 0.2365,
@@ -21,15 +21,15 @@
       "take_profit": 1.1914,
       "score": 3.556,
       "c24h_entry": 3.3411576208606997,
-      "pnl_pct": -3.089,
-      "pnl_usd": -7.3059,
+      "pnl_pct": 1.062,
+      "pnl_usd": 2.5114,
       "opened_at": "2026-06-19 22:38:57"
     },
     "AVAX": {
       "direction": "LONG",
       "name": "Avalanche",
       "entry_price": 8.59,
-      "current_price": 8.24,
+      "current_price": 8.09,
       "quantity": 46.5686561,
       "cost_basis": 400.0248,
       "fee_open": 0.4,
@@ -37,8 +37,8 @@
       "take_profit": 9.8785,
       "score": 4.189,
       "c24h_entry": 5.08223,
-      "pnl_pct": -4.075,
-      "pnl_usd": -16.299,
+      "pnl_pct": -5.821,
+      "pnl_usd": -23.2843,
       "opened_at": "2026-11-09 20:55:10"
     }
   },
@@ -63,7 +63,7 @@
       "direction": "SHORT",
       "name": "Rain",
       "entry_price": 0.0042033,
-      "current_price": 0.00370391,
+      "current_price": 0.00370752,
       "quantity": 95965.43009064,
       "cost_basis": 403.3715,
       "fee_open": 0.4034,
@@ -71,8 +71,8 @@
       "take_profit": 0.00357281,
       "score": -5.341,
       "c24h_entry": -8.65387,
-      "pnl_pct": 11.881,
-      "pnl_usd": 47.9242,
+      "pnl_pct": 11.795,
+      "pnl_usd": 47.5777,
       "opened_at": "2026-11-10 11:29:15"
     }
   },
@@ -1879,18 +1879,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-10-10 17:36",
-      "equity": 2213.8285
-    },
-    {
-      "ts": "2026-10-10 17:36",
-      "equity": 2213.8285
-    },
-    {
-      "ts": "2026-10-10 21:04",
-      "equity": 2212.3308
-    },
     {
       "ts": "2026-10-10 21:04",
       "equity": 2212.3308
@@ -3878,6 +3866,18 @@
     {
       "ts": "2026-11-14 00:07",
       "equity": 2088.7572
+    },
+    {
+      "ts": "2026-11-14 06:50",
+      "equity": 2091.2428
+    },
+    {
+      "ts": "2026-11-14 06:50",
+      "equity": 2091.2428
+    },
+    {
+      "ts": "2026-11-14 06:50",
+      "equity": 2091.2428
     }
   ],
   "stats": {
@@ -3885,9 +3885,9 @@
     "winning_trades": 27,
     "losing_trades": 46,
     "total_fees_paid": 50.2196,
-    "runs": 1464,
+    "runs": 1465,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-11-14 00:07:13",
+    "last_run": "2026-11-14 06:50:41",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
