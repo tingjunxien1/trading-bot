@@ -2,18 +2,18 @@
   "account": {
     "starting_capital": 2000.0,
     "cash": 917.8301,
-    "equity": 2017.4556,
+    "equity": 2023.3619,
     "peak_equity": 2372.4752,
     "max_drawdown_pct": -14.9641,
-    "total_pnl": 17.4556,
-    "total_pnl_pct": 0.8728
+    "total_pnl": 23.3619,
+    "total_pnl_pct": 1.1681
   },
   "longs": {
     "FIGR_HELOC": {
       "direction": "LONG",
       "name": "Figure Heloc",
       "entry_price": 1.036,
-      "current_price": 1.026,
+      "current_price": 1.016,
       "quantity": 228.30976824,
       "cost_basis": 236.5289,
       "fee_open": 0.2365,
@@ -21,15 +21,15 @@
       "take_profit": 1.1914,
       "score": 3.556,
       "c24h_entry": 3.3411576208606997,
-      "pnl_pct": -0.965,
-      "pnl_usd": -2.2831,
+      "pnl_pct": -1.931,
+      "pnl_usd": -4.5662,
       "opened_at": "2026-06-19 22:38:57"
     },
     "M": {
       "direction": "LONG",
       "name": "MemeCore",
       "entry_price": 0.868858,
-      "current_price": 0.842078,
+      "current_price": 0.830824,
       "quantity": 282.0685196,
       "cost_basis": 245.0775,
       "fee_open": 0.2451,
@@ -37,8 +37,8 @@
       "take_profit": 0.9991867,
       "score": 3.757,
       "c24h_entry": 5.14841,
-      "pnl_pct": -3.082,
-      "pnl_usd": -7.5538,
+      "pnl_pct": -4.377,
+      "pnl_usd": -10.7282,
       "opened_at": "2026-11-17 02:16:00"
     }
   },
@@ -63,7 +63,7 @@
       "direction": "SHORT",
       "name": "Rain",
       "entry_price": 0.00450331,
-      "current_price": 0.0045893,
+      "current_price": 0.00437399,
       "quantity": 52778.93276279,
       "cost_basis": 237.6799,
       "fee_open": 0.2377,
@@ -71,8 +71,8 @@
       "take_profit": 0.00382781,
       "score": -17.497,
       "c24h_entry": -32.64806,
-      "pnl_pct": -1.909,
-      "pnl_usd": -4.5385,
+      "pnl_pct": 2.872,
+      "pnl_usd": 6.8254,
       "opened_at": "2026-11-17 19:37:16"
     }
   },
@@ -1951,18 +1951,6 @@
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-10-15 01:12",
-      "equity": 2333.5557
-    },
-    {
-      "ts": "2026-10-15 01:12",
-      "equity": 2333.5557
-    },
-    {
-      "ts": "2026-10-15 06:08",
-      "equity": 2277.4766
-    },
     {
       "ts": "2026-10-15 06:08",
       "equity": 2277.4766
@@ -3950,6 +3938,18 @@
     {
       "ts": "2026-11-19 18:26",
       "equity": 2017.4556
+    },
+    {
+      "ts": "2026-11-20 00:46",
+      "equity": 2023.3619
+    },
+    {
+      "ts": "2026-11-20 00:46",
+      "equity": 2023.3619
+    },
+    {
+      "ts": "2026-11-20 00:46",
+      "equity": 2023.3619
     }
   ],
   "stats": {
@@ -3957,9 +3957,9 @@
     "winning_trades": 28,
     "losing_trades": 48,
     "total_fees_paid": 51.9045,
-    "runs": 1484,
+    "runs": 1485,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-11-19 18:26:59",
+    "last_run": "2026-11-20 00:46:35",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
