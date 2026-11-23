@@ -32254,3 +32254,25 @@
 [2026-11-23 01:53:26][INFO] Saved. Run complete.
 
 [2026-11-23 01:53:26][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-11-23 10:13:06][INFO] ====================================================================
+[2026-11-23 10:13:06][INFO] RUN #1497 START
+[2026-11-23 10:13:06][INFO] Market data: 50 coins from coingecko
+[2026-11-23 10:13:06][INFO] Source: coingecko | Coins: 50 | F&G: 11 (Extreme Fear)
+[2026-11-23 10:13:06][INFO] --- EXIT CHECK ---
+[2026-11-23 10:13:06][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-11-23 10:13:06][INFO]   SKIP longs — Extreme Fear (11)
+[2026-11-23 10:13:06][INFO] --- SHORT ENTRY CHECK (2/2) ---
+[2026-11-23 10:13:06][INFO]   Max shorts (2) reached.
+[2026-11-23 10:13:06][INFO] ────────────────────────────────────────────────────────────────────
+[2026-11-23 10:13:06][INFO] EQUITY  $2,095.33  (+4.766%)  P&L $+95.33
+[2026-11-23 10:13:06][INFO] CASH    $698.50  |  Drawdown -14.96%  |  Win 37%
+[2026-11-23 10:13:06][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 83
+[2026-11-23 10:13:06][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0560  pnl=+1.93%
+[2026-11-23 10:13:06][INFO]   📈 LONG  XMR      entry=$482.9800  now=$503.8200  pnl=+4.32%
+[2026-11-23 10:13:06][INFO]   📈 LONG  UNI      entry=$4.6800  now=$4.7500  pnl=+1.50%
+[2026-11-23 10:13:06][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-11-23 10:13:06][INFO]   📉 SHORT RAIN     entry=$0.0036  now=$0.0032  pnl=+10.69%
+[2026-11-23 10:13:06][INFO] ====================================================================
+[2026-11-23 10:13:06][INFO] Saved. Run complete.
+
+[2026-11-23 10:13:06][INFO] Notification sent → topic=chris-trading-2026 status=200
