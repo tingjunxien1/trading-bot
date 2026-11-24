@@ -32298,3 +32298,28 @@
 [2026-11-23 22:08:17][INFO] Saved. Run complete.
 
 [2026-11-23 22:08:17][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-11-24 06:13:43][INFO] ====================================================================
+[2026-11-24 06:13:43][INFO] RUN #1499 START
+[2026-11-24 06:13:43][INFO] Market data: 50 coins from coingecko
+[2026-11-24 06:13:43][INFO] Source: coingecko | Coins: 50 | F&G: 11 (Extreme Fear)
+[2026-11-24 06:13:43][INFO] --- EXIT CHECK ---
+[2026-11-24 06:13:43][INFO]   ✅ SHORT CLOSE RAIN     @ $      0.0031  pnl=$+37.05 (+15.32%)  [SHORT_TAKE_PROFIT (+15.32%)]
+[2026-11-24 06:13:43][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-11-24 06:13:43][INFO] --- LONG ENTRY CHECK (3/3) ---
+[2026-11-24 06:13:43][INFO]   SKIP longs — Extreme Fear (11)
+[2026-11-24 06:13:43][INFO] --- SHORT ENTRY CHECK (1/2) ---
+[2026-11-24 06:13:43][INFO]   📉 SHORT OPEN  RAIN     @ $      0.0031  val=$246.44  score=-3.67
+[2026-11-24 06:13:43][INFO] Notification sent → topic=chris-trading-2026 status=200
+[2026-11-24 06:13:43][INFO] ────────────────────────────────────────────────────────────────────
+[2026-11-24 06:13:43][INFO] EQUITY  $2,106.09  (+5.304%)  P&L $+106.09
+[2026-11-24 06:13:43][INFO] CASH    $730.53  |  Drawdown -14.96%  |  Win 38%
+[2026-11-24 06:13:43][INFO] LONGS: 3  SHORTS: 2  TOTAL TRADES: 84
+[2026-11-24 06:13:43][INFO]   📈 LONG  FIGR_HELOC entry=$1.0360  now=$1.0420  pnl=+0.58%
+[2026-11-24 06:13:43][INFO]   📈 LONG  XMR      entry=$482.9800  now=$494.8800  pnl=+2.46%
+[2026-11-24 06:13:43][INFO]   📈 LONG  UNI      entry=$4.6800  now=$4.9000  pnl=+4.70%
+[2026-11-24 06:13:43][INFO]   📉 SHORT LAB      entry=$6.5500  now=$6.5500  pnl=+0.00%
+[2026-11-24 06:13:43][INFO]   📉 SHORT RAIN     entry=$0.0031  now=$0.0031  pnl=+0.00%
+[2026-11-24 06:13:43][INFO] ====================================================================
+[2026-11-24 06:13:43][INFO] Saved. Run complete.
+
+[2026-11-24 06:13:43][INFO] Notification sent → topic=chris-trading-2026 status=200
