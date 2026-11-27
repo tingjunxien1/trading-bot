@@ -1,19 +1,19 @@
 {
   "account": {
     "starting_capital": 2000.0,
-    "cash": 766.3951,
-    "equity": 2141.1653,
+    "cash": 728.1091,
+    "equity": 2121.7404,
     "peak_equity": 2372.4752,
     "max_drawdown_pct": -14.9641,
-    "total_pnl": 141.1653,
-    "total_pnl_pct": 7.0583
+    "total_pnl": 121.7404,
+    "total_pnl_pct": 6.087
   },
   "longs": {
     "FIGR_HELOC": {
       "direction": "LONG",
       "name": "Figure Heloc",
       "entry_price": 1.036,
-      "current_price": 1.065,
+      "current_price": 1.056,
       "quantity": 228.30976824,
       "cost_basis": 236.5289,
       "fee_open": 0.2365,
@@ -21,31 +21,15 @@
       "take_profit": 1.1914,
       "score": 3.556,
       "c24h_entry": 3.3411576208606997,
-      "pnl_pct": 2.799,
-      "pnl_usd": 6.621,
+      "pnl_pct": 1.931,
+      "pnl_usd": 4.5662,
       "opened_at": "2026-06-19 22:38:57"
-    },
-    "XMR": {
-      "direction": "LONG",
-      "name": "Monero",
-      "entry_price": 482.98,
-      "current_price": 469.84,
-      "quantity": 0.49622825,
-      "cost_basis": 239.6683,
-      "fee_open": 0.2397,
-      "stop_loss": 449.1714,
-      "take_profit": 555.427,
-      "score": 5.439,
-      "c24h_entry": 8.36486,
-      "pnl_pct": -2.721,
-      "pnl_usd": -6.5204,
-      "opened_at": "2026-11-21 19:37:03"
     },
     "UNI": {
       "direction": "LONG",
       "name": "Uniswap",
       "entry_price": 4.68,
-      "current_price": 4.85,
+      "current_price": 4.82,
       "quantity": 51.21118,
       "cost_basis": 239.6683,
       "fee_open": 0.2397,
@@ -53,9 +37,25 @@
       "take_profit": 5.382,
       "score": 4.361,
       "c24h_entry": 7.46848,
-      "pnl_pct": 3.632,
-      "pnl_usd": 8.7059,
+      "pnl_pct": 2.991,
+      "pnl_usd": 7.1696,
       "opened_at": "2026-11-21 19:37:03"
+    },
+    "BTW": {
+      "direction": "LONG",
+      "name": "Bitway",
+      "entry_price": 1.15,
+      "current_price": 1.15,
+      "quantity": 215.88928513,
+      "cost_basis": 248.2727,
+      "fee_open": 0.2483,
+      "stop_loss": 1.0695,
+      "take_profit": 1.3225,
+      "score": 13.26,
+      "c24h_entry": 21.22409,
+      "pnl_pct": 0.0,
+      "pnl_usd": 0.0,
+      "opened_at": "2026-11-27 14:38:25"
     }
   },
   "shorts": {
@@ -79,7 +79,7 @@
       "direction": "SHORT",
       "name": "Rain",
       "entry_price": 0.00255429,
-      "current_price": 0.00250226,
+      "current_price": 0.00242748,
       "quantity": 97986.31478806,
       "cost_basis": 250.2855,
       "fee_open": 0.2503,
@@ -87,8 +87,8 @@
       "take_profit": 0.00217115,
       "score": -3.517,
       "c24h_entry": -7.10611,
-      "pnl_pct": 2.037,
-      "pnl_usd": 5.0982,
+      "pnl_pct": 4.965,
+      "pnl_usd": 12.4256,
       "opened_at": "2026-11-26 13:29:37"
     }
   },
@@ -2072,21 +2072,33 @@
       "c24h": -7.10611,
       "reason": "Bearish momentum score -3.52 | 24h -7.11%",
       "timestamp": "2026-11-26 13:29:37"
+    },
+    {
+      "action": "LONG_CLOSE",
+      "symbol": "XMR",
+      "price": 424.09,
+      "value": 210.4454,
+      "pnl_usd": -29.4333,
+      "pnl_pct": -12.193,
+      "fee": 0.2104,
+      "opened_at": "2026-11-21 19:37:03",
+      "reason": "STOP_LOSS (-12.19%)",
+      "timestamp": "2026-11-27 14:38:25"
+    },
+    {
+      "action": "LONG_OPEN",
+      "symbol": "BTW",
+      "price": 1.15,
+      "qty": 215.88928513,
+      "value": 248.27,
+      "fee": 0.2483,
+      "score": 13.26,
+      "c24h": 21.22409,
+      "reason": "Bullish momentum score 13.26 | 24h +21.22%",
+      "timestamp": "2026-11-27 14:38:25"
     }
   ],
   "equity_curve": [
-    {
-      "ts": "2026-10-18 15:17",
-      "equity": 2213.8714
-    },
-    {
-      "ts": "2026-10-18 15:17",
-      "equity": 2213.4729
-    },
-    {
-      "ts": "2026-10-18 18:13",
-      "equity": 2195.1321
-    },
     {
       "ts": "2026-10-18 18:13",
       "equity": 2195.1321
@@ -4074,16 +4086,28 @@
     {
       "ts": "2026-11-27 04:44",
       "equity": 2141.1653
+    },
+    {
+      "ts": "2026-11-27 14:38",
+      "equity": 2122.1992
+    },
+    {
+      "ts": "2026-11-27 14:38",
+      "equity": 2121.9887
+    },
+    {
+      "ts": "2026-11-27 14:38",
+      "equity": 2121.7404
     }
   ],
   "stats": {
-    "total_trades": 85,
+    "total_trades": 86,
     "winning_trades": 31,
-    "losing_trades": 49,
-    "total_fees_paid": 54.0665,
-    "runs": 1507,
+    "losing_trades": 50,
+    "total_fees_paid": 54.5252,
+    "runs": 1508,
     "created_at": "2026-06-08 00:00:00",
-    "last_run": "2026-11-27 04:44:04",
+    "last_run": "2026-11-27 14:38:25",
     "best_trade_pct": 55.653,
     "worst_trade_pct": -33.628,
     "active_strategy": "long_short_momentum_v1",
